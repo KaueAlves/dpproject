@@ -1,0 +1,64 @@
+version: "3.7"
+services:
+  # dpproject-laravel:
+  #   container_name: dpproject-laravel
+  #   extra_hosts:
+  #     - "host.docker.internal:host-gateway"
+  #   build: 
+  #     context: "."
+  #     dockerfile: php.dockerfile
+  #   ports:
+  #     - "80:80"
+  #     - "8080:80"
+  #     - "9003:9003"
+  #     - "9000:9000"
+  #   working_dir: "/var/www/html"
+  #   user: root
+  #   command: ""
+  #   stdin_open: true
+  #   tty: true
+  #   environment:
+  #     - <...>
+  #     - CHOKIDAR_USEPOLLING=true
+  #   volumes:
+  #     - "./laravel:/var/www/html"
+  #   network_mode: "host"
+
+  #  dpproject-angular:
+  #   image: node:14
+  #   container_name: dpproject-angular
+  #   working_dir: "/usr/src/app"
+  #   volumes:
+  #     - "./angular:/usr/src/app"
+  #   ports:
+  #     - "4200:4200"
+  #   command: "npm install && npm start"
+  #   network_mode: "host"
+
+  # dpproject-vue:
+  #   image: node:14
+  #   container_name: dpproject-vue
+  #   build: 
+  #     context: "."
+  #     dockerfile: node.dockerfile
+  #   working_dir: "/usr/src/app"
+  #   volumes:
+  #     - "./vue:/usr/src/app"
+  #   ports:
+  #     - "8081:8081"
+  #   command: ""
+  #   stdin_open: true
+  #   network_mode: "host"
+
+  # db-mysql:
+  #   image: mysql
+  #   container_name: mysql-container
+  #   restart: always 
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: 321982
+  #     MYSQL_DATABASE: dpproject-laravel
+  #   ports:
+  #     - "3306:3306"
+  #   volumes:
+  #     - "./mysql:/var/lib/mysql"
+  #   network_mode: "host"
