@@ -29,12 +29,5 @@ RUN sudo mv composer.phar /usr/local/bin/composer
 RUN pecl install xdebug \
 && docker-php-ext-enable xdebug
 
-RUN echo "zend_extension=/usr/local/lib/php/extensions/no-debug-non-zts-20220829/xdebug.so" >> /usr/local/etc/php/conf.d/99-xdebug.ini
-RUN echo "xdebug.mode = debug" >> /usr/local/etc/php/conf.d/99-xdebug.ini
-RUN echo "xdebug.start_with_request = yes" >> /usr/local/etc/php/conf.d/99-xdebug.ini
-RUN echo "xdebug.client_host=host.docker.internal" >> /usr/local/etc/php/conf.d/99-xdebug.ini
-RUN echo "xdebug.client_port=9003" >> /usr/local/etc/php/conf.d/99-xdebug.ini
-RUN echo "xdebug.remote_autostart=1" >> /usr/local/etc/php/conf.d/99-xdebug.ini
-RUN echo "xdebug.discover_client_host = 1" >> /usr/local/etc/php/conf.d/99-xdebug.ini
 
 
