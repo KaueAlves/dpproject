@@ -8,7 +8,7 @@ services:
     working_dir: "/usr/src/app"
     volumes:
       - "./angular:/usr/src/app"
-    # command: [sh, -c, "npm i && npm run start --watch"]
+    command: [sh, -c, "npm i && npm run start --watch"]
     stdin_open: true
     network_mode: "host"
 
