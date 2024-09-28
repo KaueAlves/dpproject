@@ -20,11 +20,14 @@ export class HeaderComponent {
     'mobile': false
   };
 
+  isAnimatedLogo = false;
+  logoPath = "../../../assets/avatar/newlogo.png";
+
   menuLinks = [
     { label: 'API', path: '/api' },
     { label: 'FrontEnd', path: '/frontend' },
-    { label: 'Backend', path: '/project' },
-    { label: 'Artes', path: '/calendar' },
+    { label: 'Backend', path: '/backend' },
+    { label: 'Artes', path: '/artes' },
   ];
 
   menuProfile = [
@@ -47,5 +50,10 @@ export class HeaderComponent {
 
   toggleMenu(menu: MenuType): void {
     this.menuVisibility[menu] = !this.menuVisibility[menu]; // Alterna o estado do menu correspondente
+  }
+
+  animateGif(){
+    this.isAnimatedLogo = !this.isAnimatedLogo;
+    this.logoPath = this.isAnimatedLogo ? "../../../assets/avatar/piscando.gif" : "../../../assets/avatar/newlogo.png";
   }
 }

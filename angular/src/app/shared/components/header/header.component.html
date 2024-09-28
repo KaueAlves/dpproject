@@ -1,4 +1,4 @@
-<nav class="  bg-zinc-800 ">
+<nav class="bg-zinc-800 mb-3 ">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
             <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -27,8 +27,8 @@
                         <h1 class="text-white font-semibold hover:text-sky-5700"> DoragonPixel</h1>
                     </a>
                 </div>
-                <div class="hidden sm:ml-6 sm:block">
-                    <div class="flex space-x-4">
+                <div class="hidden sm:ml-6 mt-auto sm:block ">
+                    <div class="flex space-x-4  justify-items-end">
                         <a *ngFor="let link of menuLinks" href="{{link.path}}"
                             [ngClass]="{' bg-zinc-900': link.path == '/' }"
                             class="rounded-md px-3 py-2 text-sm font-medium text-white  hover:bg-zinc-700 bg-zinc-800 hover:text-white"
@@ -38,7 +38,10 @@
             </div>
             <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <div class="relative ml-3">
-                    <img class="h-10 w-10 rounded-full" src="../../../assets/avatar/newlogo.png" alt="">
+                    <button (click)="animateGif()">
+                        <img class="h-10 w-10 rounded-full" [src]="logoPath" alt="">
+                    </button>
+                    
                 </div>
             </div>
         </div>
