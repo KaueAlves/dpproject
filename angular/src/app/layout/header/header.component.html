@@ -1,10 +1,10 @@
-<nav class=" bg-sky-800 dark:bg-zinc-800 ">
+<nav class="  bg-zinc-800 ">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
             <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 <!-- Mobile menu button-->
                 <button type="button" (click)="toggleMenu('mobile')"
-                    class="relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-sky-700 dark:hover:bg-zinc-700 dark:bg-zinc-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                    class="relative inline-flex items-center justify-center rounded-md p-2 text-white  hover:bg-zinc-700 bg-zinc-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                     aria-controls="mobile-menu" aria-expanded="false">
                     <span class="absolute -inset-0.5"></span>
                     <span class="sr-only">Open main menu</span>
@@ -24,14 +24,14 @@
 
                 <div class="flex flex-shrink-0 items-center">
                     <a href="/">
-                        <h1 class="text-white font-semibold hover:text-sky-600"> DoragonPixel</h1>
+                        <h1 class="text-white font-semibold hover:text-sky-5700"> DoragonPixel</h1>
                     </a>
                 </div>
                 <div class="hidden sm:ml-6 sm:block">
                     <div class="flex space-x-4">
                         <a *ngFor="let link of menuLinks" href="{{link.path}}"
-                            [ngClass]="{'bg-sky-900 dark:bg-zinc-900': link.path == '/' }"
-                            class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-sky-700 dark:hover:bg-zinc-700 dark:bg-zinc-800 hover:text-white"
+                            [ngClass]="{' bg-zinc-900': link.path == '/' }"
+                            class="rounded-md px-3 py-2 text-sm font-medium text-white  hover:bg-zinc-700 bg-zinc-800 hover:text-white"
                             aria-current="page">{{link.label}}</a>
                     </div>
                 </div>
@@ -45,9 +45,9 @@
     </div>
     <div [ngClass]="{'hidden': !menuVisibility.mobile}" class='sm:hidden' id="mobile-menu">
         <div class="space-y-1 px-2 pb-3 ">
-            <hr class="border-sky-600 dark:border-zinc-600">
+            <hr class=" border-zinc-600">
             <a *ngFor="let link of menuLinks" href="{{link.path}}"
-                [ngClass]="{'bg-sky-900 dark:bg-zinc-900': link.path == '/' }"
+                [ngClass]="{' bg-zinc-900': link.path == '/' }"
                 class="block rounded-md  px-3 py-2 text-base font-medium text-white"
                 aria-current="page">{{link.label}}</a>
         </div>
