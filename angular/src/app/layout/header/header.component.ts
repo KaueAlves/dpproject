@@ -19,12 +19,12 @@ export class HeaderComponent {
     'profile': false,
     'mobile': false
   };
-  
+
   menuLinks = [
-    { label: 'Dashboard', path: '/' },
-    { label: 'Team', path: '/team' },
-    { label: 'Projects', path: '/project' },
-    { label: 'Calendar', path: '/calendar' },
+    { label: 'API', path: '/api' },
+    { label: 'FrontEnd', path: '/frontend' },
+    { label: 'Backend', path: '/project' },
+    { label: 'Artes', path: '/calendar' },
   ];
 
   menuProfile = [
