@@ -1,16 +1,16 @@
 services:
 
-  dpproject-angular:
-    container_name: dpproject-angular
-    build: 
-      context: "."
-      dockerfile: node.dockerfile
-    working_dir: "/usr/src/app"
-    volumes:
-      - "./angular:/usr/src/app"
-    command: [sh, -c, "npm i && npm run start --watch"]
-    stdin_open: true
-    network_mode: "host"
+  # dpproject-angular:
+  #   container_name: dpproject-angular
+  #   build: 
+  #     context: "."
+  #     dockerfile: node.dockerfile
+  #   working_dir: "/usr/src/app"
+  #   volumes:
+  #     - "./angular:/usr/src/app"
+  #   command: [sh, -c, "npm i && npm run start --watch"]
+  #   stdin_open: true
+  #   network_mode: "host"
 
   # dpproject-vue:
   #   container_name: dpproject-vue
@@ -42,6 +42,17 @@ services:
   #   network_mode: "host"
   #   depends_on:
   #     - dpproject-mysql
+
+  dpproject-dotnet:
+    image: dpproject-dotnet
+    build:
+      context: .
+      dockerfile: dotnet.dockerfile
+    volumes:
+      - ./dotnet:/app 
+    network_mode: host
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
 
   # dpproject-mysql:
   #   image: mysql
