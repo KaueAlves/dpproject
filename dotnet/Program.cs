@@ -36,13 +36,6 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
-app.MapGet("/hello", () =>
-{
-    var forecast =  "Olá Musica !!";
-    return forecast;
-})
-.WithOpenApi();
-
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)

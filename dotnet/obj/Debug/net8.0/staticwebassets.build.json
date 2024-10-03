@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "hDFRntWAtAF6jwLIkKqPK9pksG1cNK2ghGAg6HTybA8=",
-  "Source": "app",
-  "BasePath": "_content/app",
+  "Hash": "QJzUwGArlFNgEaO8S/IcD5jJlSi+TGzhaKyVeQTzYKM=",
+  "Source": "dotnet",
+  "BasePath": "_content/dotnet",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
