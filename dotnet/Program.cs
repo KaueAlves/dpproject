@@ -1,9 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using Dpproject.Data; // Substitua SeuNamespace pelo namespace correto
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// Configurar a string de conexão no appsettings.json
+builder.Services.AddDbContext<MySqlContext>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+    new MySqlServerVersion(new Version(8, 0, 23)))); // Substitua a versão pelo que você está usando
+
+// Adicione os serviços restantes
+builder.Services.AddControllersWithViews(); // ou AddRazorPages(), dependendo do seu projeto
 
 var app = builder.Build();
 
