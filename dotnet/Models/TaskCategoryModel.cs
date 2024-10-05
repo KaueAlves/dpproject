@@ -10,7 +10,7 @@ namespace Dpproject.Models
         Depreciated
     }
 
-    public class TaskCategory
+    public class TaskCategoryModel
     {
         [Key]
         public int Id { get; set; }  // Chave primária
@@ -29,10 +29,14 @@ namespace Dpproject.Models
         [StringLength(200)]
         public required string Slug { get; set; }  // Campo de slug para URLs amigáveis
 
+        // Lista de categorias da tarefa
+        public List<TaskModel> Tasks { get; set; }
+
         // Construtor opcional, caso queira garantir algum valor padrão
-        public TaskCategory()
+        public TaskCategoryModel()
         {
             Status = StatusTaskCategory.Active;  // Define o valor padrão como "Ativo"
+            Tasks = new List<TaskModel>();
         }
     }
 }

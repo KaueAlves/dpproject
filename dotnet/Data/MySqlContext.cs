@@ -11,7 +11,8 @@ namespace Dpproject.Data
         }
 
         public DbSet<ExemploModel> ExemploModels { get; set; }
-        public DbSet<TaskCategory> TaskCategory { get; set; }
+        public DbSet<TaskCategoryModel> TaskCategories { get; set; }
+        public DbSet<TaskModel> Tasks { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

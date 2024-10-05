@@ -4,6 +4,7 @@ using Dpproject.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace app.Migrations
 {
     [DbContext(typeof(MySqlContext))]
-    partial class MySqlContextModelSnapshot : ModelSnapshot
+    [Migration("20241005173246_AlterTablesAndCreateTask")]
+    partial class AlterTablesAndCreateTask
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -60,12 +63,17 @@ namespace app.Migrations
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
+                    b.Property<int?>("TaskModelId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("varchar(200)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("TaskModelId");
 
                     b.ToTable("TaskCategories");
                 });
@@ -102,34 +110,16 @@ namespace app.Migrations
                     b.ToTable("Tasks");
                 });
 
-            modelBuilder.Entity("TaskCategoryModelTaskModel", b =>
+            modelBuilder.Entity("Dpproject.Models.TaskCategoryModel", b =>
                 {
-                    b.Property<int>("TaskCategoriesId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("TasksId")
-                        .HasColumnType("int");
-
-                    b.HasKey("TaskCategoriesId", "TasksId");
-
-                    b.HasIndex("TasksId");
-
-                    b.ToTable("TaskCategoryModelTaskModel");
+                    b.HasOne("Dpproject.Models.TaskModel", null)
+                        .WithMany("TaskCategories")
+                        .HasForeignKey("TaskModelId");
                 });
 
-            modelBuilder.Entity("TaskCategoryModelTaskModel", b =>
+            modelBuilder.Entity("Dpproject.Models.TaskModel", b =>
                 {
-                    b.HasOne("Dpproject.Models.TaskCategoryModel", null)
-                        .WithMany()
-                        .HasForeignKey("TaskCategoriesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Dpproject.Models.TaskModel", null)
-                        .WithMany()
-                        .HasForeignKey("TasksId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("TaskCategories");
                 });
 #pragma warning restore 612, 618
         }
