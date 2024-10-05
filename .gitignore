@@ -2,3 +2,11 @@
 /laravel/composer.lock
 /mysql
 /mysql-dotnet
+/dotnet/bin/*
+/dotnet/bin
+/dotnet/bin/Debug/net8.0
+/dotnet/obj/Debug/net8.0/dotnet.pdb
+/dotnet/obj/Debug/net8.0/refint/dotnet.dll
+/dotnet/obj/
+**/bin/
+**/obj/
