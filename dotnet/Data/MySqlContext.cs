@@ -9,8 +9,7 @@ namespace Dpproject.Data
             : base(options)
         {
         }
-
-        public DbSet<ExemploModel> ExemploModels { get; set; }
+        
         public DbSet<TaskCategoryModel> TaskCategories { get; set; }
         public DbSet<TaskModel> Tasks { get; set; }
 
