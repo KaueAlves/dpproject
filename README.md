@@ -28,3 +28,11 @@
 ### Hover
     - hover:bg-sky-700 
     - dark:hover:bg-zinc-700
+
+# Configurando MYSQL
+    1. dotnet add package Microsoft.EntityFrameworkCore
+    2. dotnet add package Pomelo.EntityFrameworkCore.MySql
+    4. dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+    5. dotnet add package Microsoft.EntityFrameworkCore.Tools
+    6. dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+    7. dotnet aspnet-codegenerator controller -name ExemploController -m ExemploModel -dc MySqlContext -outDir Controllers -api
