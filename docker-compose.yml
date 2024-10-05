@@ -43,26 +43,43 @@ services:
   #   depends_on:
   #     - dpproject-mysql
 
-  dpproject-dotnet:
-    image: dpproject-dotnet
-    build:
-      context: .
-      dockerfile: dotnet.dockerfile
-    volumes:
-      - ./dotnet:/app 
-    network_mode: host
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
 
-  # dpproject-mysql:
+
+  # dpproject-mysql-laravel:
   #   image: mysql
-  #   container_name: dpproject-mysql
+  #   container_name: dpproject-mysql-laravel
   #   restart: always 
   #   environment:
   #     MYSQL_ROOT_PASSWORD: 123456
-  #     MYSQL_DATABASE: dpproject-laravel
+  #     MYSQL_DATABASE: dpproject-mysql-laravel
   #   ports:
   #     - "3306:3306"
   #   volumes:
   #     - "./mysql:/var/lib/mysql"
   #   network_mode: "host"
+
+  # dpproject-dotnet:
+  #   user: root
+  #   image: dpproject-dotnet
+  #   build:
+  #     context: .
+  #     dockerfile: dotnet.dockerfile
+  #   volumes:
+  #     - ./dotnet:/app 
+  #   network_mode: host
+  #   environment:
+  #     - ASPNETCORE_ENVIRONMENT=Development
+
+  dpproject-mysql-dotnet:
+    user: root
+    image: mysql
+    container_name: dpproject-mysql-dotnet
+    restart: always 
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: dpproject-dotnet
+    ports:
+      - "3306:3306"
+    volumes:
+      - "./mysql-dotnet:/var/lib/mysql"
+    network_mode: "host"
