@@ -1,1 +1,17 @@
-<p>list-character works!</p>
+<div class="overflow-auto w-full">
+    <table class="table-auto w-full text-white">
+        <thead>
+            <tr>
+                <!-- Gera os cabeçalhos da tabela com base em `columns` -->
+                <th *ngFor="let column of columns | keyvalue " class="text-left">{{ column.value }}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Gera uma linha para cada jogador -->
+            <tr *ngFor="let player of players">
+                <!-- Preenche os dados de cada jogador conforme os cabeçalhos -->
+                <td *ngFor="let columnKey of columnsKeys" class="text-left">{{ player[columnKey] }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -4,7 +4,7 @@
             <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 <!-- Mobile menu button-->
                 <button type="button" (click)="toggleMenu('mobile')"
-                    class="relative inline-flex items-center justify-center rounded-md p-2 text-white  hover:bg-zinc-700 bg-zinc-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                    class="relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-zinc-700 bg-zinc-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                     aria-controls="mobile-menu" aria-expanded="false">
                     <span class="absolute -inset-0.5"></span>
                     <span class="sr-only">Open main menu</span>
@@ -19,40 +19,78 @@
                     </svg>
                 </button>
             </div>
-           
-            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
 
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div class="flex flex-shrink-0 items-center">
                     <a href="/">
-                        <h1 class="text-white font-semibold hover:text-sky-5700"> DoragonPixel</h1>
+                        <h1 class="text-white font-semibold hover:text-sky-5700">DoragonPixel</h1>
                     </a>
                 </div>
-                <div class="hidden sm:ml-6 mt-auto sm:block ">
-                    <div class="flex space-x-4  justify-items-end">
-                        <a *ngFor="let link of menuLinks" href="{{link.path}}"
-                            [ngClass]="{' bg-zinc-900': link.path == '/' }"
-                            class="rounded-md px-3 py-2 text-sm font-medium text-white  hover:bg-zinc-700 bg-zinc-800 hover:text-white"
-                            aria-current="page">{{link.label}}</a>
+                <!-- Desktop menu -->
+                <div class="hidden sm:ml-6 mt-auto sm:block">
+                    <div class="flex space-x-4 justify-items-end">
+                        <ng-container *ngFor="let link of menuLinks">
+                            <ng-container *ngIf="!link.children; else dropdown">
+                                <a href="{{link.path}}"
+                                    class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-zinc-700 bg-zinc-800 hover:text-white"
+                                    aria-current="page">{{link.label}}</a>
+                            </ng-container>
+                            <!-- Dropdown for items with children -->
+                            <ng-template #dropdown>
+                                <div class="relative group">
+                                    <button class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-zinc-700 bg-zinc-800 hover:text-white focus:outline-none">
+                                        {{link.label}}
+                                    </button>
+                                    <div class="absolute hidden group-hover:block bg-zinc-900 rounded-md shadow-lg min-w-[150px] text-center">
+                                        <ng-container *ngFor="let child of link.children">
+                                            <a href="{{child.path}}" class="block px-3 py-2 text-sm text-white hover:bg-zinc-700 rounded-md">
+                                                {{child.label}}
+                                            </a>
+                                        </ng-container>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ng-container>
                     </div>
                 </div>
             </div>
+
             <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <div class="relative ml-3">
                     <button (click)="animateGif()">
                         <img class="h-10 w-10 rounded-full" [src]="logoPath" alt="">
                     </button>
-                    
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Mobile menu -->
     <div [ngClass]="{'hidden': !menuVisibility.mobile}" class='sm:hidden' id="mobile-menu">
-        <div class="space-y-1 px-2 pb-3 ">
-            <hr class=" border-zinc-600">
-            <a *ngFor="let link of menuLinks" href="{{link.path}}"
-                [ngClass]="{' bg-zinc-900': link.path == '/' }"
-                class="block rounded-md  px-3 py-2 text-base font-medium text-white"
-                aria-current="page">{{link.label}}</a>
+        <div class="space-y-1 px-2 pb-3">
+            <hr class="border-zinc-600">
+            <ng-container *ngFor="let link of menuLinks">
+                <!-- Parent link -->
+                <a *ngIf="!link.children; else mobileDropdown" href="{{link.path}}"
+                   class="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-zinc-700">
+                    {{link.label}}
+                </a>
+                <!-- Mobile dropdown for items with children -->
+                <ng-template #mobileDropdown>
+                    <div>
+                        <button (click)="link.expanded = !link.expanded" class="block w-full text-left rounded-md px-3 py-2 text-base font-medium text-white hover:bg-zinc-700">
+                            {{link.label}}
+                        </button>
+                        <div *ngIf="link.expanded" class="pl-6 space-y-1">
+                            <ng-container *ngFor="let child of link.children">
+                                <a href="{{child.path}}" class="block rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-zinc-700">
+                                    {{child.label}}
+                                </a>
+                            </ng-container>
+                        </div>
+                    </div>
+                </ng-template>
+            </ng-container>
         </div>
     </div>
 </nav>

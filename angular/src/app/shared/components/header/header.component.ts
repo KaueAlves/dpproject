@@ -24,9 +24,21 @@ export class HeaderComponent {
   logoPath = "../../../assets/avatar/newlogo.png";
 
   menuLinks = [
-    { label: 'API', path: '/api' },
-    { label: 'FrontEnd', path: '/frontend' },
-    { label: 'Backend', path: '/backend' },
+    {
+      label: 'API', path: '/api', children: [
+        { label: 'API Docs', path: '/api' },
+      ], expanded: false
+    },
+    {
+      label: 'FrontEnd', path: '/frontend', children: [
+        { label: 'Personagens', path: 'frontend/characters'}
+      ]
+    },
+    {
+      label: 'Backend', path: '/backend', children: [
+        { label: 'NodeJS', path: '/backend/node' }
+      ], expanded: false
+    },
     { label: 'Artes', path: '/artes' },
   ];
 
@@ -36,12 +48,9 @@ export class HeaderComponent {
     { label: 'Sing out', path: '/logout' }
   ]
 
- 
-
   constructor(private activatedRoute: ActivatedRoute) {
     this.currentPath = this.currentPath = this.activatedRoute.snapshot.url.map(segment => segment.path).join('/');
     console.log(this.currentPath);
-
   }
 
   ngOninit() {
@@ -52,8 +61,16 @@ export class HeaderComponent {
     this.menuVisibility[menu] = !this.menuVisibility[menu]; // Alterna o estado do menu correspondente
   }
 
-  animateGif(){
+  animateGif() {
     this.isAnimatedLogo = !this.isAnimatedLogo;
     this.logoPath = this.isAnimatedLogo ? "../../../assets/avatar/piscando.gif" : "../../../assets/avatar/newlogo.png";
+  }
+
+  toggleExpand(index: number): void {
+    this.menuLinks[index].expanded = !this.menuLinks[index].expanded;
+  }
+
+  trackByIndex(index: number, obj: any): any {
+    return index;
   }
 }
