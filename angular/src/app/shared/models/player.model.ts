@@ -1,13 +1,26 @@
+import { Skill } from "./skill.model";
 export interface Player {
-    [key: string]: string; // Assinatura de índice para aceitar qualquer chave string
+    [key: string]: any;
     player: string;
-    nome: string;
-    classe: string;
-    nivel: string;
-    forca: string;
-    destreza: string;
-    consituicao: string;
-    inteligencia: string;
-    sabedoria: string;
-    carisma: string;
+    name: string;
+    class: string[];
+    nivel: number[];
+    armorClass?: number;
+    speed?: number;
+    currentLife?: number;
+    maxLife?: number;
+    tempLife?: number;
+    iniciative?: number;
+    proficiency: number;
+    ability: ability;
+    skills?: Skill[];
+}
+
+export interface ability{
+    str: {value:number, modifier?: number, saveModifier?: number, isSave: boolean};
+    dex: {value:number, modifier?: number, saveModifier?: number, isSave: boolean};
+    con: {value:number, modifier?: number, saveModifier?: number, isSave: boolean};
+    int: {value:number, modifier?: number, saveModifier?: number, isSave: boolean};
+    wis: {value:number, modifier?: number, saveModifier?: number, isSave: boolean};
+    cha: {value:number, modifier?: number, saveModifier?: number, isSave: boolean};
 }

@@ -2,16 +2,23 @@
     <table class="table-auto w-full text-white">
         <thead>
             <tr>
-                <!-- Gera os cabeçalhos da tabela com base em `columns` -->
-                <th *ngFor="let column of columns | keyvalue " class="text-left">{{ column.value }}</th>
+                <th *ngFor="let column of columns " class="text-left">{{ column }}</th>
             </tr>
         </thead>
         <tbody>
-            <!-- Gera uma linha para cada jogador -->
             <tr *ngFor="let player of players">
-                <!-- Preenche os dados de cada jogador conforme os cabeçalhos -->
-                <td *ngFor="let columnKey of columnsKeys" class="text-left">{{ player[columnKey] }}</td>
+                <td class="text-left"> {{ player.player }}</td>
+                <td class="text-left"> {{ player.name }}</td>
+                <td class="text-left"> {{ player.currentLife}}/{{player.maxLife }}</td>
+                <td class="text-left"> {{ player.class }}</td>
+                <td class="text-left"> {{ player.nivel }}</td>
+                <td class="text-left"> ({{ player.ability.str.modifier }}){{ player.ability.str.isSave ? " | " + player.ability.str.saveModifier : null}}</td>
+                <td class="text-left"> ({{ player.ability.dex.modifier }}){{ player.ability.dex.isSave ? " | " + player.ability.dex.saveModifier : null}}</td>
+                <td class="text-left"> ({{ player.ability.con.modifier }}){{ player.ability.con.isSave ? " | " + player.ability.con.saveModifier : null}}</td>
+                <td class="text-left"> ({{ player.ability.int.modifier }}){{ player.ability.int.isSave ? " | " + player.ability.int.saveModifier : null}}</td>
+                <td class="text-left"> ({{ player.ability.wis.modifier }}){{ player.ability.wis.isSave ? " | " + player.ability.wis.saveModifier : null}}</td>
+                <td class="text-left"> ({{ player.ability.cha.modifier }}){{ player.ability.cha.isSave ? " | " + player.ability.cha.saveModifier : null}}</td>
             </tr>
         </tbody>
     </table>
-</div>
+</div> 
