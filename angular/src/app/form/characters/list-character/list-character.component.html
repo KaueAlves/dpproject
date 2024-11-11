@@ -1,23 +1,27 @@
 <div class="overflow-auto w-full">
-    <table class="table-auto w-full text-white">
+    <table class="table-auto w-full text-white border-spacing-4">
         <thead>
             <tr>
-                <th *ngFor="let column of columns " class="text-left">{{ column }}</th>
+                <th *ngFor="let column of columns " class="text-left ">{{ column }}</th>
             </tr>
-        </thead>
+        </thead >
         <tbody>
-            <tr *ngFor="let player of players">
-                <td class="text-left"> {{ player.player }}</td>
-                <td class="text-left"> {{ player.name }}</td>
-                <td class="text-left"> {{ player.currentLife}}/{{player.maxLife }}</td>
-                <td class="text-left"> {{ player.class }}</td>
-                <td class="text-left"> {{ player.nivel }}</td>
-                <td class="text-left"> ({{ player.ability.str.modifier }}){{ player.ability.str.isSave ? " | " + player.ability.str.saveModifier : null}}</td>
-                <td class="text-left"> ({{ player.ability.dex.modifier }}){{ player.ability.dex.isSave ? " | " + player.ability.dex.saveModifier : null}}</td>
-                <td class="text-left"> ({{ player.ability.con.modifier }}){{ player.ability.con.isSave ? " | " + player.ability.con.saveModifier : null}}</td>
-                <td class="text-left"> ({{ player.ability.int.modifier }}){{ player.ability.int.isSave ? " | " + player.ability.int.saveModifier : null}}</td>
-                <td class="text-left"> ({{ player.ability.wis.modifier }}){{ player.ability.wis.isSave ? " | " + player.ability.wis.saveModifier : null}}</td>
-                <td class="text-left"> ({{ player.ability.cha.modifier }}){{ player.ability.cha.isSave ? " | " + player.ability.cha.saveModifier : null}}</td>
+            <tr *ngFor="let player of players; let i = index" [ngClass]="{'bg-zinc-600': i%2 == 0}">
+                <td class="text-left px-2 py-1 border"> {{ player.player }}</td>
+                <td class="text-left px-2 py-1 border text-nowrap font-bold"> {{ player.name }}</td>
+                <td class="text-center px-2 py-1 border"> {{ player.currentLife}}/{{player.maxLife }}</td>
+                <td class="text-left px-2 py-1 border"> {{ player.class }}</td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.nivel }}</td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.armorClass }}</td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.proficiency }}</td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.perception }}</td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.ability.str.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.str.isSave'}">{{ player.ability.str.isSave ? ' | ' + setSaveModifier(player.ability.str.modifier,player.proficiency) : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.ability.dex.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.dex.isSave'}">{{ player.ability.dex.isSave ? ' | ' + setSaveModifier(player.ability.dex.modifier,player.proficiency) : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.ability.con.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.con.isSave'}">{{ player.ability.con.isSave ? ' | ' + setSaveModifier(player.ability.con.modifier,player.proficiency) : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.ability.int.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.int.isSave'}">{{ player.ability.int.isSave ? ' | ' + setSaveModifier(player.ability.int.modifier,player.proficiency) : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.ability.wis.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.wis.isSave'}">{{ player.ability.wis.isSave ? ' | ' + setSaveModifier(player.ability.wis.modifier,player.proficiency) : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.ability.cha.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.cha.isSave'}">{{ player.ability.cha.isSave ? ' | ' + setSaveModifier(player.ability.cha.modifier,player.proficiency) : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap" > <button class="hover:underline" (click)="editar(player)">Editar</button></td>
             </tr>
         </tbody>
     </table>
