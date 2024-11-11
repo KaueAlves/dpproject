@@ -67,24 +67,6 @@ export class ListCharacterComponent {
       }
     },
     {
-      player: 'Murilo',
-      name: 'Bruxa',
-      class: ['Bruxa'],
-      nivel: [1],
-      proficiency: 2,
-      currentLife: 10,
-      maxLife: 10,
-      armorClass: 10,
-      ability: {
-        str: { value: 10, modifier: this.setModifier(10), isSave: false },
-        dex: { value: 10, modifier: this.setModifier(10), isSave: true },
-        con: { value: 10, modifier: this.setModifier(10), isSave: false },
-        int: { value: 10, modifier: this.setModifier(10), isSave: false },
-        wis: { value: 10, modifier: this.setModifier(10), isSave: false },
-        cha: { value: 10, modifier: this.setModifier(10), isSave: true },
-      }
-    },
-    {
       player: 'Andrey',
       name: 'Zorath',
       class: ['Monge'],
@@ -103,9 +85,9 @@ export class ListCharacterComponent {
       }
     },
     {
-      player: 'Luan',
-      name: 'Flame Haze',
-      class: ['Mago'],
+      player: 'Murilo',
+      name: 'Bruxa',
+      class: ['Bruxa'],
       nivel: [1],
       proficiency: 2,
       currentLife: 10,
@@ -118,6 +100,24 @@ export class ListCharacterComponent {
         int: { value: 10, modifier: this.setModifier(10), isSave: false },
         wis: { value: 10, modifier: this.setModifier(10), isSave: false },
         cha: { value: 10, modifier: this.setModifier(10), isSave: true },
+      }
+    },
+    {
+      player: 'Luan',
+      name: 'Flame Haze',
+      class: ['Guerreiro'],
+      nivel: [1],
+      proficiency: 2,
+      currentLife: 10,
+      maxLife: 10,
+      armorClass: 10,
+      ability: {
+        str: { value: 17, modifier: this.setModifier(17), isSave: false },
+        dex: { value: 15, modifier: this.setModifier(15), isSave: true },
+        con: { value: 14, modifier: this.setModifier(14), isSave: false },
+        int: { value: 14, modifier: this.setModifier(14), isSave: false },
+        wis: { value: 14, modifier: this.setModifier(14), isSave: false },
+        cha: { value: 14, modifier: this.setModifier(14), isSave: true },
       }
     },
     {
