@@ -5,6 +5,7 @@ export interface Player {
     name: string;
     class: string[];
     nivel: number[];
+    description?: string;
     armorClass?: number;
     speed?: number;
     currentLife?: number;
