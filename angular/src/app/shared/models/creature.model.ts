@@ -1,11 +1,10 @@
 import { Skill } from "./skill.model";
 import { Ability } from "./ability.model";
-export interface Player {
+
+export interface Creature {
     [key: string]: any;
-    player: string;
     name: string;
     class: string[];
-    nivel: number[];
     description?: string;
     armorClass?: number;
     speed?: number;
@@ -18,4 +17,3 @@ export interface Player {
     ability: Ability;
     skills?: Skill[];
 }
-

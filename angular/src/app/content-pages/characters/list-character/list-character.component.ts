@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Player } from '../../../shared/models/player.model';
+import { Creature } from '../../../shared/models/creature.model';
 
 @Component({
   selector: 'app-list-character',
@@ -30,6 +31,24 @@ export class ListCharacterComponent {
   ];
 
   columnsNpc = [
+    'Player', 
+    'Nome',
+    'Vida',
+    'Classe',
+    'Nivel',
+    'AC',
+    'PROF',
+    'PERC',
+    'STR',
+    'DEX',
+    'CON',
+    'INT',
+    'WIS',
+    'CHA',
+    'Descrição'
+  ];
+  
+  columnsCreatures = [
     'Player', 
     'Nome',
     'Vida',
@@ -89,6 +108,8 @@ export class ListCharacterComponent {
       name: 'Hopper Quickfoot',
       class: ['Bardo'],
       nivel: [1],
+
+
       proficiency: 2,
       currentLife: 11,
       maxLife: 11,
@@ -258,6 +279,8 @@ export class ListCharacterComponent {
       }
     }
   ];
+
+  creatures: Creature[] = [];
 
   ngOnInit() {
     this.setPerceptionScore(this.players);
