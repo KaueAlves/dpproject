@@ -35,7 +35,7 @@ export const routes: Routes = [
         children: [
             { path: 'characters', component: ListCharacterComponent },
             { path: 'characters/edit/:id', component: EditCharacterComponent },
-            { path: 'creatures', component: ListDocumentComponent },
+            { path: 'creatures', component: ListCreatureComponent },
             { path: 'documents', component: ListDocumentComponent },
             { path: 'items', component: ListItemComponent }
         ]

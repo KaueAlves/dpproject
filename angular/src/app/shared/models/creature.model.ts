@@ -4,16 +4,17 @@ import { Ability } from "./ability.model";
 export interface Creature {
     [key: string]: any;
     name: string;
-    class: string[];
-    description?: string;
     armorClass?: number;
-    speed?: number;
-    currentLife?: number;
     maxLife?: number;
+    currentLife?: number;
     tempLife?: number;
-    iniciative?: number;
-    proficiency: number;
-    perception?: number;
+    speed?: number;
     ability: Ability;
     skills?: Skill[];
+    senses?: string[];
+    languages?: string[];
+    nivel: number;
+    exp: number;
+    descriptions?: string[];
+    actions?: string[];
 }

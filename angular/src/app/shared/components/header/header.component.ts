@@ -31,7 +31,8 @@ export class HeaderComponent {
     },
     {
       label: 'FrontEnd', path: '/frontend', children: [
-        { label: 'Personagens', path: 'frontend/characters'}
+        { label: 'Personagens', path: 'frontend/characters'},
+        { label: 'Criaturas', path: 'frontend/creatures'}
       ]
     },
     {
