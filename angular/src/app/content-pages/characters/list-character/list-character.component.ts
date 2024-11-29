@@ -51,7 +51,7 @@ export class ListCharacterComponent {
     new Player({
       player: 'Murilo',
       name: 'Bruxa',
-      class: ['Bruxa'],
+      classe: ['Bruxa'],
       nivel: [1],
       proficiency: 2,
       currentLife: 9,
@@ -69,7 +69,7 @@ export class ListCharacterComponent {
     new Player({
       player: 'Chera',
       name: 'Slinx Hellbrand',
-      class: ['Guerreiro'],
+      classe: ['Guerreiro'],
       nivel: [1],
       proficiency: 2,
       currentLife: 12,
@@ -87,7 +87,7 @@ export class ListCharacterComponent {
     new Player({
       player: 'Leandro',
       name: 'Hopper Quickfoot',
-      class: ['Bardo'],
+      classe: ['Bardo'],
       nivel: [1],
       proficiency: 2,
       currentLife: 11,
@@ -105,7 +105,7 @@ export class ListCharacterComponent {
     new Player({
       player: 'Andrey',
       name: 'Zorath',
-      class: ['Monge'],
+      classe: ['Monge'],
       nivel: [1],
       proficiency: 2,
       currentLife: 9,
@@ -123,7 +123,7 @@ export class ListCharacterComponent {
     new Player({
       player: 'Luan',
       name: 'Flame Haze',
-      class: ['Guerreiro'],
+      classe: ['Guerreiro'],
       nivel: [1],
       proficiency: 2,
       currentLife: 12,
@@ -144,7 +144,7 @@ export class ListCharacterComponent {
     new Player({
       player: 'Kauê',
       name: 'Mortar Cantis',
-      class: ['Ladino'],
+      classe: ['Ladino'],
       nivel: [1],
       proficiency: 2,
       currentLife: 13,
@@ -163,7 +163,7 @@ export class ListCharacterComponent {
     new Player({
       player: 'Kauê',
       name: 'Ferreiro Aiden',
-      class: ['Guerreiro'],
+      classe: ['Guerreiro'],
       nivel: [1],
       proficiency: 2,
       currentLife: 15,
@@ -182,7 +182,7 @@ export class ListCharacterComponent {
     new Player({
       player: 'Kauê',
       name: 'Taverneira Grizelda',
-      class: ['Maga'],
+      classe: ['Maga'],
       nivel: [1],
       proficiency: 2,
       currentLife: 7,
@@ -201,7 +201,7 @@ export class ListCharacterComponent {
     new Player({
       player: 'Kauê',
       name: 'Guarda Falkor',
-      class: ['Paladino'],
+      classe: ['Paladino'],
       nivel: [1],
       proficiency: 2,
       currentLife: 15,
@@ -220,7 +220,7 @@ export class ListCharacterComponent {
     new Player({
       player: 'Kauê',
       name: 'Mercadora Endora',
-      class: ['Caçadora'],
+      classe: ['Caçadora'],
       nivel: [1],
       proficiency: 2,
       currentLife: 14,
@@ -239,7 +239,7 @@ export class ListCharacterComponent {
     new Player({
       player: 'Kauê',
       name: 'Atendente Lia',
-      class: ['Feiticeira'],
+      classe: ['Feiticeira'],
       nivel: [1],
       proficiency: 2,
       currentLife: 9,

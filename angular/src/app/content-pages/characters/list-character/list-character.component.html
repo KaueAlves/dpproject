@@ -17,7 +17,7 @@
                 <td class="text-left px-2 py-1 border"> {{ player.player }}</td>
                 <td class="text-left px-2 py-1 border text-nowrap font-bold"> {{ player.name }}</td>
                 <td class="text-center px-2 py-1 border" style="text-wrap: nowrap;"> <input type="text" class="pr-1" style="max-width: 25px;color:black; text-align: right;" [value]="player.currentLife"> / <span style="width: 20px; display: inline-block;">{{player.maxLife}}</span></td>
-                <td class="text-left px-2 py-1 border"> {{ player.class }}</td>
+                <td class="text-left px-2 py-1 border"> {{ player.classe }}</td>
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ player.nivel }}</td>
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ player.armorClass }}</td>
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ player.proficiency }}</td>
@@ -52,7 +52,7 @@
             <tr *ngFor="let npc of npcs; let i = index" [ngClass]="{'bg-zinc-600': i%2 == 0}">
                 <td class="text-left px-2 py-1 border text-nowrap font-bold"> {{ npc.name }}</td>
                 <td class="text-center px-2 py-1 border" style="text-wrap: nowrap;"> <input type="text" class="pr-1" style="max-width: 25px;color:black; text-align: right;" [value]="npc.currentLife"> / <span style="width: 20px; display: inline-block;">{{npc.maxLife}}</span></td>
-                <td class="text-left px-2 py-1 border"> {{ npc.class }}</td>
+                <td class="text-left px-2 py-1 border"> {{ npc.classe }}</td>
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.nivel }}</td>
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.armorClass }}</td>
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.proficiency }}</td>
@@ -63,7 +63,7 @@
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('int') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.int.isSave'}">{{ npc.ability.int.isSave ? ' | ' + npc.getSaveModifier('int') : null}}</span></td>
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('wis') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.wis.isSave'}">{{ npc.ability.wis.isSave ? ' | ' + npc.getSaveModifier('wis') : null}}</span></td>
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('cha') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.cha.isSave'}">{{ npc.ability.cha.isSave ? ' | ' + npc.getSaveModifier('cha') : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> <span>{{npc.description }}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> <span>{{npc.description }}</span></td> 
             </tr>
         </tbody>
     </table>
