@@ -5,7 +5,7 @@ import { Creature } from '../../../shared/models/creature.model';
 @Component({
   selector: 'app-create-creature',
   standalone: true,
-  imports: [CommonModule,NgClass],
+  imports: [CommonModule, NgClass],
   templateUrl: './create-creature.component.html',
   styleUrl: './create-creature.component.scss'
 })

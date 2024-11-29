@@ -22,13 +22,13 @@
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ player.armorClass }}</td>
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ player.proficiency }}</td>
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ player.perception }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.ability.str.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.str.isSave'}">{{ player.ability.str.isSave ? ' | ' + setSaveModifier(player.ability.str.modifier,player.proficiency) : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.ability.dex.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.dex.isSave'}">{{ player.ability.dex.isSave ? ' | ' + setSaveModifier(player.ability.dex.modifier,player.proficiency) : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.ability.con.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.con.isSave'}">{{ player.ability.con.isSave ? ' | ' + setSaveModifier(player.ability.con.modifier,player.proficiency) : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.ability.int.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.int.isSave'}">{{ player.ability.int.isSave ? ' | ' + setSaveModifier(player.ability.int.modifier,player.proficiency) : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.ability.wis.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.wis.isSave'}">{{ player.ability.wis.isSave ? ' | ' + setSaveModifier(player.ability.wis.modifier,player.proficiency) : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.ability.cha.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.cha.isSave'}">{{ player.ability.cha.isSave ? ' | ' + setSaveModifier(player.ability.cha.modifier,player.proficiency) : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap" > <button class="hover:underline" (click)="editar(player)">Editar</button></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.getModifier('str') }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.str.isSave'}">{{ player.ability.str.isSave ? ' | ' + player.getSaveModifier('str') : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.getModifier('dex') }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.dex.isSave'}">{{ player.ability.dex.isSave ? ' | ' + player.getSaveModifier('dex') : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.getModifier('con') }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.con.isSave'}">{{ player.ability.con.isSave ? ' | ' + player.getSaveModifier('con') : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.getModifier('int') }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.int.isSave'}">{{ player.ability.int.isSave ? ' | ' + player.getSaveModifier('int') : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.getModifier('wis') }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.wis.isSave'}">{{ player.ability.wis.isSave ? ' | ' + player.getSaveModifier('wis') : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.getModifier('cha') }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.cha.isSave'}">{{ player.ability.cha.isSave ? ' | ' + player.getSaveModifier('cha') : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> <button class="hover:underline" (click)="editar(player)">Editar</button></td>
             </tr>
         </tbody>
     </table>
@@ -50,7 +50,6 @@
         </thead >
         <tbody>
             <tr *ngFor="let npc of npcs; let i = index" [ngClass]="{'bg-zinc-600': i%2 == 0}">
-                <td class="text-left px-2 py-1 border text-nowrap font-bold">{{npc.player}}</td>
                 <td class="text-left px-2 py-1 border text-nowrap font-bold"> {{ npc.name }}</td>
                 <td class="text-center px-2 py-1 border" style="text-wrap: nowrap;"> <input type="text" class="pr-1" style="max-width: 25px;color:black; text-align: right;" [value]="npc.currentLife"> / <span style="width: 20px; display: inline-block;">{{npc.maxLife}}</span></td>
                 <td class="text-left px-2 py-1 border"> {{ npc.class }}</td>
@@ -58,13 +57,13 @@
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.armorClass }}</td>
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.proficiency }}</td>
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.perception }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.ability.str.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.str.isSave'}">{{ npc.ability.str.isSave ? ' | ' + setSaveModifier(npc.ability.str.modifier,npc.proficiency) : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.ability.dex.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.dex.isSave'}">{{ npc.ability.dex.isSave ? ' | ' + setSaveModifier(npc.ability.dex.modifier,npc.proficiency) : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.ability.con.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.con.isSave'}">{{ npc.ability.con.isSave ? ' | ' + setSaveModifier(npc.ability.con.modifier,npc.proficiency) : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.ability.int.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.int.isSave'}">{{ npc.ability.int.isSave ? ' | ' + setSaveModifier(npc.ability.int.modifier,npc.proficiency) : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.ability.wis.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.wis.isSave'}">{{ npc.ability.wis.isSave ? ' | ' + setSaveModifier(npc.ability.wis.modifier,npc.proficiency) : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.ability.cha.modifier }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.cha.isSave'}">{{ npc.ability.cha.isSave ? ' | ' + setSaveModifier(npc.ability.cha.modifier,npc.proficiency) : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap" > <span>{{npc.description }}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('str') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.str.isSave'}">{{ npc.ability.str.isSave ? ' | ' + npc.getSaveModifier('str') : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('dex') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.dex.isSave'}">{{ npc.ability.dex.isSave ? ' | ' + npc.getSaveModifier('dex') : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('con') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.con.isSave'}">{{ npc.ability.con.isSave ? ' | ' + npc.getSaveModifier('con') : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('int') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.int.isSave'}">{{ npc.ability.int.isSave ? ' | ' + npc.getSaveModifier('int') : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('wis') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.wis.isSave'}">{{ npc.ability.wis.isSave ? ' | ' + npc.getSaveModifier('wis') : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('cha') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.cha.isSave'}">{{ npc.ability.cha.isSave ? ' | ' + npc.getSaveModifier('cha') : null}}</span></td>
+                <td class="text-center px-2 py-1 border text-nowrap"> <span>{{npc.description }}</span></td>
             </tr>
         </tbody>
     </table>

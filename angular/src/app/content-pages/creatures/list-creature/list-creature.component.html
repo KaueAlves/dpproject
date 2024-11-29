@@ -18,14 +18,14 @@
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.armorClass }}</td>
                 <td class="text-center px-2 py-1 border" style="text-wrap: nowrap;"> <input type="text" class="pr-1" style="max-width: 25px;color:black; text-align: right;" [value]="creature.currentLife"> / <span style="width: 20px; display: inline-block;">{{creature.maxLife}}</span></td>
                 <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.speed }}ft</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.ability.str.modifier }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.ability.dex.modifier }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.ability.con.modifier }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.ability.int.modifier }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.ability.wis.modifier }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.ability.cha.modifier }}</td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.getModifier('str') }}</td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.getModifier('dex') }}</td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.getModifier('con') }}</td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.getModifier('int') }}</td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.getModifier('wis') }}</td>
+                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.getModifier('cha') }}</td>
                 
-                <td class="text-center px-2 py-1 border line" > <span *ngFor="let skill of creature.skills">{{ skill.name }} + {{skill.abilityMod}} <br></span></td>
+                <td class="text-center px-2 py-1 border line" > <span *ngFor="let skill of creature.skills">{{ skill.name }}+{{skill.abilityMod}}<br></span></td>
                 <td class="text-center px-2 py-1 border line" > <span *ngFor="let sense of creature.senses">{{ sense }} <br></span></td>
                 <td class="text-center px-2 py-1 border " > <span>{{creature.languages }}</span></td>
                 <td class="text-center px-2 py-1 border " > <span>{{creature.nivel }}</span></td>

@@ -12,21 +12,24 @@ import { SkillLevel } from '../../../shared/models/skill.model';
 })
 export class ListCreatureComponent {
   creatures: Creature[] = [
-    {
-      name: 'Goblin',
+    new Creature({
+      name: "Goblin",
       armorClass: 15,
-      maxLife: 12,
-      currentLife: 7,
-      tempLife: 0,
+      maxLife: 30,
+      currentLife: 30,
       speed: 30,
       ability: {
         str: { value: 8, isSave: false },
         dex: { value: 14, isSave: true },
-        con: { value: 10, isSave: false },
+        con: { value: 12, isSave: false },
         int: { value: 10, isSave: false },
         wis: { value: 8, isSave: false },
-        cha: { value: 8, isSave: true },
+        cha: { value: 8, isSave: false },
       },
+      nivel: 1,
+      exp: 50,
+      descriptions: ["Small, sneaky humanoid"],
+      actions: ["Slash with a rusty sword", "Dodge"],
       skills: [
         {
           name: 'Furtividade',
@@ -45,13 +48,9 @@ export class ListCreatureComponent {
           description: 'Testes de Intimidação'
         },
       ],
-      senses:["Visão no Escuro 18m", "Percepção passiva 11"],
-      languages: ["common"],
-      nivel: 1,
-      exp: 0,
-      descriptions: ["Ataque Surpresa","Bruto","Coração de Hrugeek"],
-      actions: ["Ataques Multiplos","Maça Estrela","Azagaia"],
-    },
+      senses: ["Darkvision 60ft"],
+      languages: ["Common", "Goblin"],
+    }),
   ];
 
   columnsCreatures = [
