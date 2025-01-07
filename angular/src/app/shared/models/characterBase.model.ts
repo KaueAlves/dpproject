@@ -13,6 +13,10 @@ export class CharacterBase {
     ability: Ability;
     skills?: Skill[];
     exp?: number;
+    immunitysDamage?: string[];
+    immunitysCondition?: string[];
+    resistences?: string[];
+
 
     constructor(data: Partial<CharacterBase>) {
         this.name = data.name || '';
@@ -31,6 +35,9 @@ export class CharacterBase {
         };
         this.skills = data.skills || [];
         this.exp = data.exp || 0;
+        this.immunitysDamage = data.immunitysDamage || [];
+        this.immunitysCondition = data.immunitysDamage || [];
+        this.resistences = data.resistences || [];
     }
 
     getModifier(ability: keyof Ability): number {

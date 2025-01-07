@@ -30,7 +30,6 @@ export class ListCharacterComponent {
   ];
 
   columnsNpc = [
-    
     'Nome',
     'Vida',
     'Classe',
@@ -139,7 +138,6 @@ export class ListCharacterComponent {
       },
     }),
   ]
-
   npcs: Player[] = [
     new Player({
       player: 'Kauê',

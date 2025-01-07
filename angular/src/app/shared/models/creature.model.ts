@@ -8,6 +8,7 @@ export class Creature extends CharacterBase {
     descriptions?: string[];
     actions?: string[];
     nivel: number;
+    page: number;
 
     constructor(data: Partial<Creature>) {
         super(data);
@@ -16,5 +17,6 @@ export class Creature extends CharacterBase {
         this.descriptions = data.descriptions || [];
         this.actions = data.actions || [];
         this.nivel = data.nivel || 0;
+        this.page = data.page || 0;
     }
 }
