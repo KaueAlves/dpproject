@@ -99,11 +99,11 @@ Com os anéis recuperados, o grupo ficou dividido entre duas opções: aproveita
 
 ### Crianças
   > Zayn "Sorriso Ladrão"   | Pele roxa escura e olhos prateados                  | Charmoso e persuasivo
-  > Nysa "Passo-Leve"       | Pele azul-clara e olhos lilases                     | Silenciosa e enigmática
   > Lilith "Sombra Risonha" | Pele azul-escura como o crepúsculo                  | Maliciosa e brincalhona
   > Thorne "Vento Noturno"  | Pele cinza-pálida que reflete à luz da lua          | Reservado e observador
   > Kael "Chifres Rachados" | Pele vermelha profunda e chifres curtos e quebrados | Astuto e curioso
   > Iris "Rabo de Fogo"     | Pele laranja-avermelhada e olhos verdes reluzentes  | Pequena e ágil
+  > Nysa "Passo-Leve"       | Pele azul-clara e olhos lilases                     | Silenciosa e enigmática
 
 ### Npcs Importantes
   > Mortar Cantis            | Humano Ladino                                       | Astuto e Cansado
@@ -204,8 +204,176 @@ O Anel Brilhante aceita sua primeira missão, com o pedido em mãos, o grupo se 
 - Grupo pode matar ou capturar um cultista. 
 - Enwin é guiado pelo seu dragão caso não tenham encontrado nenhuma informação.
 - Ritual de 6 turnos para invocação/portal - Invocação do Zumbi observador
+- Igreja do Esquecido, inimigo/opositor ao historiador
+- Pessoas sequestradas mortas envolva de um recipiente de pedra
+- Ao passar informação para guilda os membros recebem acesso a Baldurs Gate e são intimados a comparecerem ao conselho de guerra.
+
+- Grupo acaba com o Ritual e captura um dos custistas.
+- Um dos membros será marcado pelo Culto.
+- Guarda da cidade irá prender os que forem marcados.
+- Caso o grupo prenda um cultista terá, direito a liberdade. 
+- Grupo será escoltado para o salão principal de Baldurs Gate.
+
+> Velissa Arvannis, fala por telepatia, calma e brava, triste.
+
+- Grupo pode aceitar ser preso ou fugir.
+
+### Capitulo 6
+
+- O pseudodragão leva o grupo até o templo do esquecido no norte de baldurs gueto.
+- O Barbaro encontra o grupo a caminho do resgate das crianças
+- Existem 6 pessoas presas a cada turno uma pessoa morre
+- As crianças serão as ultimas a morrer 
+- Aomine esté preso
+- Maneira de impedir o ritual é quebrando os cristais, atacando os conjuradores, matando todos.
+- Cada acerto nos inimigos do ritual atrasam o ritual em 1 turno
+- A cada 5 minutos uma pessoa morre
+- "Ó, esquecido, guia nossas mentes ao alívio do desconhecido, apague o peso do que não nos serve mais."
+
+### Capitulo 7 
+
+- Aomine morre.
+- Grupo se encontra em um templo abaixo de Baldurs Gueto.
+- O templo está abaixo dos esgotos de baldurs gate.
+
+- Vocês se encontram abaixo do solo. Vocês não sabem a profundidade, mas sabem que o caminho foi longo. A noite foi longa. Vocês vieram com um propósito: "Salvar as crianças", vocês tem certeza disso.
+E vocês conseguiram não é? Algumas pessoas morreram, mas ninguem consegue salvar a todos.
+
+Enwin, o mundo nunca foi tão vazio, depois de decadas sentindo a presença do seu sócio, agora você parece ter que tocar os negocios sozinho. O Silencio é perturbador.
+Slinx, você conseguiu você salvou tudo o que importava para você, a sua missão está completa, e tudo o que custou foi uma pequena dor no pescoço, que vontade de beber uma boa... boa o que ?
+Hopper, sua mente que sempre é preenchida por musicas épicas e temas heróicos é invadida por uma balada fria e melancólica, como se tivessem acabado de tirar uma corda do seu alaude favorito.
+Lirien, seu objetivo era conseguir chegar até Baldurs Gate, e você acha que agora vai conseguir, você se sente estranhamente bem em matar aqueles que estão no seu caminho, 
+você se sentiu bem em destrui-los.
+
+Agora vocês conseguem ver de fato a cena sem ter a pressa os deixando cegos.
+Vocês estão em um templo, a atmosfera é pesada, a névoa que os custistas usavam está fina, está um pouco acima da linha de seus pés.
+Os que estão a frente conseguem ver o portal. Um arco que idealmente serviria como passagem para um outro comodo, mas que o outro lado está selado com concreto. Parecendo uma piada de mal gosto. Um portal que não leva a nenhum lugar. Pelo menos ele vai levar vocês a lugar nenhum hoje.
+
+4 Cultistas ainda estão vivos, balbuciando seu mantra varias e varias vezes em velocidade diferentes, com expressões distintas.
+2 Ogros se mantem de pé, atacando os que estão próximos.
+3 Crianças estão no chão, amarradas, e dormindo tranquilamente, enquanto respiram a névoa fina que sai de aspesórios espalhados pelo ambiente, preenchendo-o.
+1 Mortar, ferido,com as costas abertas, não um corte apenas, mas vários, como se tivesse sido açoitado por roubar a dama de um nobre.
+
+- O grupo pode levar para comprovar o acontecido: 
+- As tabuas 1 inteira e uma quebrada.
+- Local irá desmoronar 
+- Aparece atrás de vocês o Sumo
+- Conversa com o grupo, tentando os convercer de de algo, oferendo algo. 
+
+> Caçadora, Cleriga, Guerreiro, Mago, Druida.
+> Ladino hobbit, Anão Cozinheiro, Elfa Maga, guerreiro.
+> Anel que Brilha.
+> Um cara, 3 garotas. 
+
+1. O grupo se salva.
+2. Encontram o Sumo Sacerdote.
+3. A caverna desaba.
+4. Salvam e levam as crianças e Mortar.
+5. Vários grupos enfrentaram os cultistas, mas apenas o Anel que Brilha e outros três grupos possuem informações úteis.
+6. Lia organiza os documentos.
+7. Uma pessoa morre na guilda, e o processo de esquecimento é interrompido por Slinx.
+8. Parsath leva as crianças para casa.
+9. O grupo nota as feridas de Mortar que não cicatrizam.
+10. A guilda escoltará o grupo para dentro de Baldur's Gate.
+11. Slinx está Marcado.
+12. Enwin recupera seus poderes e se lembra de Aomine por meio da entidade, ele tem o nome tatuado no braço.
+13. O grupo suspeita que O Esquecido manipulou a crença das pessoas para que pensem que o demônio parou de cobrar seus contratos.
+14. Lyrien acha que o esquecido fez com que as pessoas esquecessem o demonio dos contratos.
+15. Grupo verifica os papeis da guilda, para verificar quais pessoas desapareceram.
+16. Varios grupos, varias pessoas deixaram de ser lembradas.
+17. Lyrien sempre erra os nomes.
+
+### Capitulo 8
+1. Grupo escoltado.
+2. Mais grupos apresentados.
+3. Liberado acesso a área comercial por tempo limitado.
+4. Grupo pode ir até o mercador.
+5. Mercado do Jamor
+  > Todos os NPCs foram reunidos.
+  > Mercador fala sobre os artefatos que necessita reunir.
+  > São X artefatos.
+  > Estão espalhados por Faerûn.
+  > Ele não irá dar 
+6. Briga entre classes 
+  2 Líderes Rebeldes (Bandit Captain - MM, p. 344, ajustado para CR 2)
+  6 Revoltosos Armados (Bandits - MM, p. 343)
+  1 Bruto de Taverna (Berserker - MM, p. 344)
+  ou
+  1 Cavaleiro Nobre (Knight - MM, p. 347, ajustado para CR 3)
+  4 Guardas Pessoais (Guards - MM, p. 347)
+  2 Veteranos da Guarda (Veteran - MM, p. 350, ajustados para CR 2 cada)
+7. Briga no porto.
+  1 Líder dos Saqueadores – "Lorde Carcino" (CR 3 – Baseado no Bandit Captain, MM p. 344, ajustado)
+  1 Gladiador Mercenário (1x Berserker – CR 2, MM p. 344)
+  4 Arqueiros Emboscadores (4x Scouts – CR 1, MM p. 349)
+8. BOATOS
+  📜 Boatos Circulando pela Cidade
+  Os aventureiros podem ouvir rumores em tavernas, mercados e pelas ruas. Esses boatos podem levá-los a investigações e perigos ocultos.
+  ---
+  ## 🏰 Centro da Cidade – Disputas entre Plebeus e Nobres
+  1. **"A nobreza está tramando algo!"**  
+    Alguns plebeus dizem que os nobres estão se reunindo em segredo para impor mais impostos e reforçar a guarda. Outros afirmam que há desentendimentos entre as famílias aristocráticas.
+  2. **"O povo está se organizando para resistir!"**  
+    Nas tabernas, cochichos falam de reuniões clandestinas. Dizem que um líder rebelde carismático está recrutando descontentes para um grande levante.
+  3. **"Guardas foram vistos aceitando subornos."**  
+    Alguns cidadãos afirmam ter visto guardas da cidade recebendo ouro em becos escuros. Mas seria dinheiro dos nobres para manter a ordem ou dos plebeus para iniciar um golpe?
+  4. **"A Igreja pode estar envolvida."**  
+    Clérigos estão discursando sobre justiça e igualdade, e alguns dizem que membros do clero podem estar apoiando os plebeus… ou os nobres, dependendo de quem paga melhor.
+  ---
+  ## ⚓ Porto – Brigas e Caos nas Docas
+  1. **"O porto está cheio de contrabandistas!"**  
+    Dizem que mercadores estão sendo ameaçados a pagar taxas secretas para desembarcar suas cargas em segurança.
+  2. **"Um navio misterioso atracou à noite."**  
+    Alguns marinheiros juram ter visto uma embarcação sombria chegar sem anunciar sua carga. Desde então, figuras encapuzadas têm sido vistas pelas docas.
+  3. **"Os trabalhadores estão em greve."**  
+    Barqueiros e estivadores estão furiosos, exigindo melhores condições. Alguns comerciantes estão contratando mercenários para forçá-los a voltar ao trabalho.
+  4. **"Criaturas do mar foram vistas entre os barcos."**  
+    Há rumores de pescadores desaparecendo e corpos encontrados com marcas de garras. Alguns dizem que os merfolks estão planejando atacar a cidade.
+  ---
+
+9. 
+  Perguntas dos Guardas
+  "Onde e quando vocês viram esse ritual acontecer?"
+
+  Para determinar a localização exata e há quanto tempo ocorreu.
+  "Quantas pessoas estavam envolvidas e como elas se vestiam?"
+
+  Para identificar os cultistas e possíveis cúmplices.
+  "Havia algum símbolo, estátua ou inscrição no local?"
+
+  Para descobrir a qual entidade ou grupo o ritual estava associado.
+  "Vocês reconheceram alguém que participou do ritual?"
+
+  Para investigar possíveis cidadãos ou figuras influentes envolvidas.
+  "Como vocês escaparam ou sobreviveram ao ritual?"
+
+  Para entender se os aventureiros foram poupados intencionalmente ou se há algo mais em jogo.
+  "Vocês sentem que algo foi apagado de suas memórias?"
+
+  Para identificar se a magia de esquecimento funcionou totalmente ou deixou lacunas.
+  "Havia vítimas? Vocês conseguem descrevê-las?"
+
+  Para descobrir se alguém desaparecido pode ser rastreado.
+  "Vocês viram algum objeto estranho ou ritualístico?"
+
+  Para saber se há artefatos que possam ser analisados por magos da cidade.
+  "Alguém tentou impedir o ritual ou alertar as autoridades?"
+
+  Para descobrir se há resistência ao culto dentro da cidade.
+  "Vocês têm alguma prova física do que aconteceu?"
+
+  Para validar o testemunho e conduzir uma investigação mais profunda.
+  Essas perguntas ajudam a construir um mistério e direcionar a investigação na campanha. Quer que eu adicione isso ao documento atual? 
 
 
+
+
+### Culto do Esquecido
+- Objetivo da Entidade: Fazer com que as pessoas esqueçam os principais deuses e venerem o esquecido.
+- Motivo: O esquecido retira seus medos, inseguranças, desejos e tudo o que a pessoa considera a que torna pior ou fraca.
+- 3 Sacerdotes principais: Xortuu, Longro, Instam
+- Estão buscando/sequestrando novos fieis para trazer criaturas infernais abençoadas pelo deus corrupto.
+- Objetivo dos Sacerdotes: Melhorar o mundo.
 
 ### Nome do grupo - O Anel Brilha
 
@@ -215,7 +383,6 @@ O Anel Brilha, no céu e no chão, Com coragem, enfrentam a escuridão, Seu bril
 Um coelho ágil, com pés ligeiros, Um elfo sábio, dos rifles certeiros, Uma criança pura, cheia de esperança, Um draconato feroz, com sua lança.
 Um humano valente, com coração de aço, Juntos são invencíveis, ninguém quebra seu laço, Em cada aventura, em cada batalha, O Anel Brilha, e nunca falha.
 O Anel Brilha, no céu e no chão, Com coragem, enfrentam a escuridão, Seu brilho é a força, sua luz a guia, O Anel Brilha, na alma e na magia.
-
 
 ## Encontro com Mercador
 
