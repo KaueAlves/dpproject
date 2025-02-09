@@ -1,289 +1,317 @@
-# Anotações em geral
+# 📝 Anotações em Geral
 
-- Attack (Atacar): Realize um ataque corpo a corpo, à distância ou desarmado.
-- Cast a Spell (Lançar uma Magia): Conjure uma magia disponível (se puder).
-- Dash (Correr): Dobre sua velocidade de movimento até o final do turno.
-- Disengage (Desengajar): Evite ataques de oportunidade ao sair do alcance inimigo.
-- Dodge (Esquivar): Ataques contra você têm desvantagem até o próximo turno.
-- Grapple (Agarrar): Tente imobilizar um inimigo usando uma jogada de ataque especial.
-- Help (Ajudar): Conceda vantagem a um aliado em uma tarefa ou ataque.
-- Hide (Esconder): Tente se esconder, exigindo um teste de Destreza (Furtividade).
-- Improvise (Improvisar): Realize uma ação criativa que não esteja nas regras básicas.
-- Ready (Preparar): Prepare uma reação específica com uma condição definida.
-- Search (Procurar): Use sua ação para investigar ou procurar algo no ambiente.
-- Shove (Empurrar): Tente derrubar ou empurrar um inimigo usando uma jogada especial.
-- Use an Object (Usar um Objeto): Interaja com um item ou objeto não comum em combate.
+## Ações Básicas
+- **Attack (Atacar):** Realize um ataque corpo a corpo, à distância ou desarmado.  
+- **Cast a Spell (Lançar uma Magia):** Conjure uma magia disponível (se puder).  
+- **Dash (Correr):** Dobre sua velocidade de movimento até o final do turno.  
+- **Disengage (Desengajar):** Evite ataques de oportunidade ao sair do alcance inimigo.  
+- **Dodge (Esquivar):** Ataques contra você têm desvantagem até o próximo turno.  
+- **Grapple (Agarrar):** Tente imobilizar um inimigo usando uma jogada de ataque especial.  
+- **Help (Ajudar):** Conceda vantagem a um aliado em uma tarefa ou ataque.  
+- **Hide (Esconder):** Tente se esconder, exigindo um teste de Destreza (Furtividade).  
+- **Improvise (Improvisar):** Realize uma ação criativa que não esteja nas regras básicas.  
+- **Ready (Preparar):** Prepare uma reação específica com uma condição definida.  
+- **Search (Procurar):** Use sua ação para investigar ou procurar algo no ambiente.  
+- **Shove (Empurrar):** Tente derrubar ou empurrar um inimigo usando uma jogada especial.  
+- **Use an Object (Usar um Objeto):** Interaja com um item ou objeto não comum em combate.  
 
 ## Dano de Queda
-  10ft - 15ft ( teste facil )
-  - 1d6 a cada 10 ft
-  
+- **10ft - 15ft (teste fácil):**  
+  - **1d6** a cada 10 ft.
+
+---
+
 ## Premissa
 
-Um poderoso demônio do inferno foi recentemente destruído, e as consequências de sua queda reverberam por todo o plano material. Aqueles que haviam firmado pactos com ele ou estavam sob seu controle se viram libertos de maneira repentina, enquanto diversos outros demônios e entidades agora competem pelo poder deixado vago. Esse conflito extraplanar desencadeou um êxodo de criaturas, cultistas e refugiados rumo às principais cidades da Costa da Espada, gerando caos e instabilidade.
+Um **poderoso demônio** do inferno foi recentemente destruído, e as consequências de sua queda reverberam por todo o plano material. Aqueles que haviam firmado pactos com ele ou estavam sob seu controle se viram libertos de maneira repentina, enquanto diversos outros demônios e entidades agora competem pelo poder deixado vago. Esse conflito extraplanar desencadeou um êxodo de criaturas, cultistas e refugiados rumo às principais cidades da **Costa da Espada**, gerando caos e instabilidade.
 
-Os jogadores possuem uma ligação em comum: todos eles foram ajudados ou conheceram um mercador misterioso em algum momento de suas vidas. Agora, após anos sem contato, o mercador envia uma carta pedindo ajuda urgente, mas sem fornecer muitos detalhes. Ele solicita que o grupo o encontre em Baldur’s Gate para discutir o assunto pessoalmente.
+Os jogadores possuem uma ligação em comum: todos eles foram ajudados ou conheceram um **mercador misterioso** em algum momento de suas vidas. Agora, após anos sem contato, o mercador envia uma carta pedindo ajuda urgente, mas sem fornecer muitos detalhes. Ele solicita que o grupo o encontre em **Baldur’s Gate** para discutir o assunto pessoalmente.
 
-Porém, ao chegarem na cidade, eles descobrem que Baldur’s Gate está sob lockdown. As autoridades, tentando conter o fluxo descontrolado de refugiados e visitantes, fecharam as muralhas, restringindo o acesso e intensificando a vigilância. No meio desse cenário de tensão e desordem, os jogadores precisam se infiltrar ou encontrar formas criativas de entrar na cidade e atender ao chamado do mercador.
+Porém, ao chegarem na cidade, eles descobrem que **Baldur’s Gate** está sob **lockdown**. As autoridades, tentando conter o fluxo descontrolado de refugiados e visitantes, fecharam as muralhas, restringindo o acesso e intensificando a vigilância. No meio desse cenário de tensão e desordem, os jogadores precisam se infiltrar ou encontrar formas criativas de entrar na cidade e atender ao chamado do mercador.
 
-## Dicas para proximas
 
-- Desenhar o mapa, mesmo que seja no paint.
-- Auxiliar mais em caso de duvida.
+# Resumo da Aventura
 
-## Personagem do Bruno
+O grupo se reuniu de maneira inusitada em um acampamento improvisado no meio da floresta. Mortar Cantis, um homem de aparência simples, trajando roupas de couro desgastadas e exibindo um olhar cansado, estava no centro da clareira. Ele falava incessantemente, com palavras que misturavam sabedoria e exaustão. Aos poucos, os outros membros do grupo chegaram: Lyrien, Hopper, Enwin, Slinx e Aomine. Com exceção de Slinx e Aomine, o restante do grupo ainda era composto por estranhos, mas logo todos se apresentaram e começaram a tentar entender o motivo de estarem ali juntos.
 
-- Merfolk fudido que mora no esgoto.
+Lyrien, sempre desconfiado e perspicaz, questionou Mortar sobre sua presença, o brilho dos anéis mágicos que cada um portava e o propósito daquela reunião. Mortar explicou que, assim como todos ali, também havia recebido uma carta misteriosa.
 
-## Capitulo 1 - Os aneis, as armadilhas e as crianças
+### Anéis Mágicos e O Propósito da Reunião
+- Mortar revelou que os anéis eram **anéis de vínculo de dívida**, mas as runas élficas estavam danificadas, comprometendo algumas de suas funcionalidades.
+- Apesar disso, os anéis ainda estavam conectados magicamente e brilhavam com intensidade sempre que estavam próximos. Eles foram forjados a partir do mesmo veio de minério mágico.
+- O objetivo agora era encontrar um comerciante em **Baldur's Gate** que poderia ter respostas ou pistas sobre o que estava acontecendo.
+- **Enwin**, sendo sábio o suficiente, confirmou o funcionamento dos anéis, enquanto **Lyrien** notava certos padrões nas runas.
 
-O grupo se reuniu de forma inusitada em um acampamento improvisado no meio da floresta. Mortar Cantis, um velho de aparência simples, trajando roupas de couro desgastadas e exibindo um olhar cansado, estava no centro da clareira. Ele falava incessantemente, e sua fala parecia tanto carregar sabedoria quanto exaustão. Aos poucos, os outros foram chegando: Lyrien, Hopper, Enwin, Slinx e Aomine. Com exceção de Slinx e Aomine, o restante do grupo ainda era composto por estranhos entre si, mas logo todos se apresentaram, tentando entender o motivo de estarem ali juntos.
+### Montagem de Armadilhas
+- Inicialmente desconfiados de Mortar, o grupo gradualmente baixou a guarda e decidiu ajudá-lo a montar **armadilhas ao redor do acampamento** para garantir a segurança.
+- **Lyrien**, com habilidade para improvisação, demonstrou maestria ao criar **três armadilhas** perfeitamente funcionais usando objetos encontrados ao redor. Ele posicionou-as cuidadosamente ao norte da lareira.
 
-Lyrien, sempre desconfiado e perspicaz, foi direto ao ponto, questionando Mortar sobre sua presença, o brilho dos anéis mágicos que cada um portava, e o propósito daquela reunião. Mortar explicou que, assim como todos ali, também havia recebido uma carta misteriosa.
+### O Incidente com Aomine
+- Durante a preparação, **Aomine**, afetado pelo alcoolismo, teve mais uma de suas alucinações. Ele perdeu a capacidade de falar a língua comum e começou a se comunicar apenas em **dracônico** com Slinx.
+- Convencido de que havia perigo ao norte, Aomine disparou uma **rajada de fogo** em direção à mata. No entanto, não atingiu nada.
+- **Slinx**, desconfiado, questionou se Aomine tinha certeza do que sentira. A resposta foi típica: Aomine afirmou que nunca se engana, mas Slinx sabia que isso não era verdade.
+- Com a situação controlada, **Lyrien** voltou a posicionar as armadilhas e o grupo se preparou para a noite.
 
-Os anéis, ele revelou, eram anéis de vínculo de dívida. No entanto, as runas élficas inscritas neles estavam danificadas, o que havia comprometido algumas de suas funcionalidades. Mesmo assim, os anéis continuavam conectados de alguma forma: sempre que estavam próximos, reagiam magicamente, brilhando com intensidade. Segundo Mortar, todos os anéis haviam sido forjados a partir do mesmo veio de minério mágico. O objetivo agora era encontrar um comerciante em Baldur's Gate, que poderia ter respostas ou pistas sobre o que estava acontecendo.
+### O Confisco das Armadilhas por Hopper
+- **Hopper**, sempre furtivo, decidiu agir durante a madrugada. Ele se aproximou das armadilhas de Lyrien e tentou inutilizá-las com pedras pesadas.
+- Quando tentou quebrar a última armadilha, falhou miseravelmente, e o barulho chamou a atenção de **Lyrien**, que o confrontou.
+- Hopper inventou uma desculpa pouco convincente, alegando que era carnívoro e não via utilidade nas armadilhas para pequenos animais, mas **Lyrien** rapidamente percebeu a mentira e lhe deu uma dura lição de moral.
 
-As palavras sobre os anéis foram confirmadas por Enwin, que é sábio o bastante para se lembrar de como funcionam os anéis e a pela inteligência de Lyrien que consegue notas certos padrões nas runas.
+### O Grupo em Direção a Baldur's Gate
+- Na manhã seguinte, o grupo partiu rumo a **Baldur's Gate**. Antes de avistarem as muralhas da cidade, perceberam a enormidade da fila formada por caravanas e carruagens.
+- As regras eram claras: carruagens com carga deveriam ser deixadas fora das muralhas, e as pessoas entrariam na fila a pé, carregando apenas mochilas ou mercadorias aprovadas.
 
-Embora inicialmente desconfiados de Mortar, o grupo acabou baixando a guarda gradualmente. Eles decidiram ajudá-lo a montar armadilhas ao redor do acampamento, já que a segurança era uma preocupação imediata. Lyrien, que tinha uma habilidade inata para improvisação, demonstrou sua maestria ao criar três armadilhas perfeitamente funcionais utilizando objetos encontrados ao redor. Após inspecionar a área, escolheu cuidadosamente o norte da lareira como o local ideal para posicioná-las.
+### O Encontro com Lorde Alfonso
+- Quando se aproximaram da entrada, um tumulto chamou a atenção do grupo. **Lorde Alfonso**, um homem bem-vestido e claramente irritado, protestava por não ser permitido entrar com sua família.
+- Ele alegava ser **morador da cidade** e filho de uma figura influente, mas isso não abalou o **guarda Falcor**, um imponente **Goliath** que bloqueava a entrada.
+- **Falcor** manteve a postura e repetiu insistentemente: “**Documentos**”.
+- Quando Alfonso insistiu pela terceira vez, **Falcor** o golpeou com um forte soco no estômago e o expulsou da fila com um chute.
 
-Entretanto, antes que pudesse prosseguir, Aomine, afetado por sua luta contra o alcoolismo, começou a ter mais uma de suas frequentes alucinações. Ele perdeu momentaneamente a capacidade de falar a língua comum, comunicando-se apenas em dracônico com Slinx. Convencido de que havia perigo iminente ao norte, usou seu poder ancestral para disparar uma rajada de fogo em direção à mata. Apesar do espetáculo, a rajada não atingiu nada. Slinx, desconfiado, perguntou se Aomine tinha certeza do que havia sentido. A resposta foi típica: Aomine afirmou nunca se enganar, o que Slinx, conhecendo bem seu amigo, sabia não ser verdade.
+### O Incidente de Slinx e Alfonso
+- **Slinx**, movido por um senso de justiça, tentou ajudar o **Lorde Alfonso**, mas foi desprezado por ele, que ordenou que se afastasse.
+- Ofendido, **Slinx** tentou roubar **Alfonso**, mas falhou desajeitadamente e foi pego. Na segunda tentativa, foi flagrado e Alfonso gritou por socorro. No entanto, a multidão, acostumada à disparidade social, ignorou o incidente.
+- **Lyrien** abordou Alfonso e descobriu que ninguém sabia os critérios para entrar em Baldur's Gate, nem mesmo moradores da cidade.
 
-Com a situação controlada, Lyrien voltou a posicionar suas armadilhas. O grupo começou a se preparar para a noite. Enquanto Lyrien iniciou sua meditação habitual e os outros se deitaram, Mortar cuidou de finalizar as armadilhas antes de dormir.
+### A Carta e a Falha em Entrar na Cidade
+- **Hopper** teve a ideia de mostrar a carta com o símbolo do mercador a **Falcor** para tentar facilitar a entrada. Porém, o Goliath mal se deu ao trabalho de olhar e ordenou que **Hopper** voltasse ao final da fila.
+- O grupo discutiu outra abordagem e **Lyrien** percebeu que **Hopper** havia atraído atenção demais para o grupo, o que poderia ser perigoso.
+- **Hopper** sugeriu que mostrassem os anéis, mas que **outra pessoa** os exibisse, já que seu rosto já estava familiar aos guardas.
+- **Mortar** interveio, ajustando os sigilos mágicos dos anéis e fez um ferreiro tentar entrar com eles, mas o ferreiro também falhou e devolveu os anéis ao grupo.
 
-Entretanto, Hopper, sempre furtivo e astuto, tinha outros planos. Durante a madrugada, ele se esgueirou pelo acampamento e aproximou-se das armadilhas de Lyrien. Com uma confiança exagerada, tentou inutilizá-las. Ele usou pedras pesadas para testar os mecanismos, deixando-as sobre as armadilhas. Quando tentou quebrar a última, seu plano falhou miseravelmente, e o barulho chamou a atenção de Lyrien.
+### O Roubo dos Anéis
+- Ao anoitecer, a multidão começou a se acampar perto das muralhas. No caos, **crianças roubaram os anéis** do grupo e fugiram rapidamente.
+- **Hopper** foi o primeiro a perceber o roubo e, sem hesitar, saltou sobre a multidão e correu atrás dos pequenos ladrões.
+- Sua intimidação foi eficaz: **duas crianças tropeçaram**, e as outras pararam momentaneamente.
+- **Lyrien** e **Aomine** imobilizaram as demais, enquanto **Enwin**, com **pontaria perfeita**, disparou uma flecha e derrubou a última criança.
 
-Alertado, Lyrien imediatamente questionou Hopper sobre o que estava fazendo. Hopper, pego de surpresa, inventou uma desculpa pouco convincente, afirmando que era carnívoro e não via utilidade nas armadilhas para pequenos animais. O problema? Horas antes, ele havia dito claramente que não comia carne. Lyrien, percebendo a mentira descarada, deu-lhe uma dura lição de moral. Resignado, Hopper foi dormir murmurando que as armadilhas "não funcionavam com peso".
+### Decisão Final
+- Com os anéis recuperados, o grupo ficou dividido: entrar na cidade durante a confusão ou ajudar as crianças feridas.
+- O grupo decidiu pela **opção mais gentil**, levando as crianças ao **Baldur's Gueto** para tratar os ferimentos e se reestruturar.
 
-Lyrien, desconfiado, decidiu não dormir naquela noite. Manteve-se alerta, vigiando Hopper enquanto o restante do grupo dormia profundamente, ignorando a tensão crescente.
+### Ações Notáveis
+- **Criação perfeita de armadilhas**
+- **Atuação incrível nas carruagens e caravanas**
+- **Busca avançada por cogumelos anti-ressaca**
+- **Jesus Cristo do Norte** (referência humorística a Aomine)
+- **Pontaria perfeita** (Enwin, com precisão, derrubando a última criança)
 
-Na manhã seguinte, o grupo partiu rumo a Baldur's Gate. Antes mesmo de avistar as imponentes muralhas da cidade, eles perceberam a enormidade da fila que se formava: carruagens e caravanas de todos os cantos se estendiam por quilômetros. As regras eram claras: as carruagens com carga deveriam ser deixadas ao longo das muralhas, enquanto as pessoas entrariam na fila a pé, carregando apenas suas mochilas ou mercadorias previamente aprovadas.
+# Capítulo 2 - O Anel Brilha
 
-Quando finalmente se aproximaram da entrada, testemunharam um tumulto envolvendo um homem bem-vestido e claramente irritado. Ele se apresentou como Lorde Alfonso e protestava veementemente por não ser permitido entrar com sua família. Ele argumentava que era morador da cidade e filho de uma figura influente. Sua indignação, no entanto, não parecia abalar o guarda que bloqueava a entrada.
+- O Grupo foge com as 6 crianças para **Baldur's Gueto**.
+- As crianças fazem parte de um grupo de **Ladinos de Baldur's Gate**, comandados por uma **Tiefling** poderosa e reconhecida por seus feitos.
+- O objetivo das crianças é entrar em **Baldur's Gate** e se reunir com **Mol**, amiga e líder dos Tieflings ladinos.
+- O Grupo tenta adquirir informações das crianças, mas sem sucesso. Mortar consegue obter algumas informações na cidade e na guilda.
+- O Grupo se registra como "**O Anel Brilha**", grupo de aventureiros de bronze.
+- A guilda está localizada em uma porta mágica que teletransporta o grupo para outros locais.
 
-Falcor, o imponente Goliath que guardava o portão, era uma figura intimidadora: enorme, musculoso, coberto de tatuagens, com uma barba espessa e um olhar penetrante. Ele permanecia inabalável e repetia com firmeza a mesma palavra:
-– Documentos.
+## Crianças
 
-Quando Alfonso tentou argumentar pela terceira vez, Falcor, sem hesitar, o golpeou com força no estômago, tirando-lhe o ar. Em seguida, com um chute, expulsou o nobre da fila, lançando-o ao chão.
+> **Zayn "Sorriso Ladrão"** | Pele roxa escura e olhos prateados | Charmoso e persuasivo  
+> **Lilith "Sombra Risonha"** | Pele azul-escura como o crepúsculo | Maliciosa e brincalhona  
+> **Thorne "Vento Noturno"** | Pele cinza-pálida que reflete à luz da lua | Reservado e observador  
+> **Kael "Chifres Rachados"** | Pele vermelha e chifres curtos e quebrados | Astuto e curioso  
+> **Iris "Rabo de Fogo"** | Pele laranja-avermelhada e olhos verdes reluzentes | Pequena e ágil  
+> **Nysa "Passo-Leve"** | Pele azul-clara e olhos lilases | Silenciosa e enigmática
 
-Slinx, movido por um senso de justiça ou talvez curiosidade, aproximou-se para ajudar o Lorde caído. Contudo, Alfonso, com desdém, recusou a ajuda e ordenou que Slinx se afastasse, como se ele fosse apenas um plebeu intrometido. Ofendido, Slinx tentou roubá-lo em retaliação, mas falhou desajeitadamente. Na segunda tentativa, foi pego no ato, fazendo Alfonso gritar por socorro. No entanto, a multidão, acostumada à disparidade social e aos preconceitos de Baldur's Gate, ignorou o incidente.
+## NPCs Importantes
 
-Enquanto observava a confusão, Lyrien decidiu abordar Alfonso para obter informações. Conversando com o nobre, descobriu que ninguém parecia entender os critérios para entrar na cidade. Nem mesmo moradores de Baldur's Gate conseguiam acesso sem os tais “documentos” misteriosos. A situação era caótica: as muralhas estavam repletas de soldados, tanto no topo quanto ao redor, e o acesso era rigidamente controlado.
+> **Mortar Cantis** | Humano Ladino | Astuto e Cansado  
+> **Ferreiro Aiden** | Fire Genasi Guerreiro | Forte, Sério  
+> **Taverneira Grizelda** | Tiefling Maga | Debochada, Bonita  
+> **Guarda Falkor** | Goliath Paladino | Rancoroso, Forte  
+> **Mercadora Endora** | Hobbit Caçadora | Animada, Drogada  
+> **Atendente Lia** | Elfa Feiticeira | Gentil, Confiante
 
-Diante do impasse, Hopper teve uma ideia: mostrou a carta com o símbolo do mercador a Falcor, na esperança de que isso facilitasse a entrada do grupo. Contudo, o Goliath mal se deu ao trabalho de olhar e ordenou que Hopper retornasse ao final da fila. Sem opções, ele voltou ao grupo para discutir um novo plano.
+### Encontro de Slinx com Goblins
 
-Lyrien não precisou de muito para perceber o problema: Hopper havia colocado um alvo em suas costas. O gesto chamara atenção demais para o grupo, o que poderia ser perigoso.
+- **Slinx** criou "Jesus Cristo" como um personagem.
+- **Hopper** criou "Robin Hood" e "Goblin Slayer" como personagens.
 
-Sem se deixar abater, Hopper sugeriu outra abordagem. Desta vez, recomendou que mostrassem os anéis, mas sugeriu que outra pessoa o fizesse, já que seu rosto agora era familiar aos guardas. Mortar interveio, ajustando os sigilos mágicos dos anéis, e conseguiu convencer um ferreiro próximo na fila a usá-los caso seus documentos fossem rejeitados. O ferreiro tentou, mas também não conseguiu entrar. Ele devolveu os anéis ao grupo e seguiu seu caminho.
+---
 
-O dia passou em discussões frustradas enquanto o grupo permanecia diante dos portões. Ao anoitecer, a multidão começou a montar acampamentos próximos às muralhas, buscando a segurança das fortificações. Na confusão, algumas crianças espertas aproveitaram o caos para roubar os anéis do grupo e fugiram em disparada na direção oposta.
+# Capítulo 3 - O Encontro das Moambas
 
-Hopper foi o primeiro a perceber o roubo. Ele alertou seus companheiros e, sem hesitar, saltou sobre a multidão, correndo atrás dos pequenos ladrões. Sua intimidação foi eficiente: duas crianças tropeçaram, e as demais pararam momentaneamente. Lyrien e Aomine rapidamente imobilizaram outras duas, enquanto Enwin, percebendo que não conseguiria alcançar a última, disparou uma flecha precisa, derrubando-a no chão. Restava apenas uma criança em fuga, mas Hopper usou sua magia para incapacitar o pequeno ladrão, encerrando a perseguição.
+O **Anel Brilhante** aceita sua primeira missão. Com o pedido em mãos, o grupo se prepara para a viagem de um dia.
 
-Com os anéis recuperados, o grupo ficou dividido entre duas opções: aproveitar a confusão para entrar na cidade ou ajudar as crianças feridas. Decidiram pelo caminho mais gentil. Com os anéis em segurança, levaram as crianças feridas ao Baldur's Gueto, onde poderiam tratar seus ferimentos e se reestruturar. 
+- O Grupo precisa de **5 moedas de ouro** para transporte.
+- A ração de cada pessoa será reduzida em **1**.
+- Precisam de **água**.
+- **Mortar** fica na cidade buscando mais missões interessantes para o grupo.
+- **Mortar** também cuida das crianças.
 
-- Criação pefeita de armadilhas
-- Atuação incrivel nas carruajens e caravanas
-- Busca avançada por cogumelos anti-ressaca
-- Jesus Cristo do Norte
-- Pontaria perfeita
-
-## Capitulo 2 - O Anel Brilha
-
-- O Grupo foge com as 6 crianças para Baldurs Gueto.
-- As crianças fazem parte de um grupo de Ladinos de Baldur Gate, comandados por uma Tieflin que adiquiriu muito poder e reconhecimento por seus feitos. 
-- As crianças tem como objetivo entrar em Baldurs Gate e se reunir novamente com a Mol amiga e lider dos Tieflin ladinos.
-- O Grupo tenta adiquirir informações das crianças, mas não conseguem, Mortar consegue pegar informações na cidade e na guilda.
-- O Grupo se registra como "O Anel Brilha", grupo de aventureiros de bronze.
-- Guilda fica em uma porta mágica que teletransporta o grupo para 
-
-### Crianças
-  > Zayn "Sorriso Ladrão"   | Pele roxa escura e olhos prateados                  | Charmoso e persuasivo
-  > Lilith "Sombra Risonha" | Pele azul-escura como o crepúsculo                  | Maliciosa e brincalhona
-  > Thorne "Vento Noturno"  | Pele cinza-pálida que reflete à luz da lua          | Reservado e observador
-  > Kael "Chifres Rachados" | Pele vermelha profunda e chifres curtos e quebrados | Astuto e curioso
-  > Iris "Rabo de Fogo"     | Pele laranja-avermelhada e olhos verdes reluzentes  | Pequena e ágil
-  > Nysa "Passo-Leve"       | Pele azul-clara e olhos lilases                     | Silenciosa e enigmática
-
-### Npcs Importantes
-  > Mortar Cantis            | Humano Ladino                                       | Astuto e Cansado
-  > Ferreiro Aiden           | Fire Genasi Guerreiro                               | Forte, Sério
-  > Taverneira Grizelda      | Tiefling Maga                                       | Debochada, Bonita 
-  > Guarda Falkor            | Goliath Paladino                                    | Rancoroso, Forte
-  > Mercadora Endora         | Hobbit Caçadora                                     | Animada, Drogada
-  > Atendente Lia            | Elfa Feiticeira                                     | Gentil, Confiante
-
-Primeiro encontro de Slinix com goblins (Grande batalha contra goblins).
-
-- Slinx criou Jesus Cristro
-- Hopper criou Robin hood
-- Hopper criou o Goblin Slayer
-
-### Capitulo 3 - O encontro das moambas
-
-O Anel Brilhante aceita sua primeira missão, com o pedido em mãos, o grupo se prepara para a viagem de um dia.
-
-- O Grupo precisa de transporte (5 moedas de ouro).
-- Reduzir a ração de cada pessoa em 1.
-- Água irão precisar.
-- Mortar fica na cidade buscando missões que possam ser interressantes para o Grupo.
-- Mortar está com as crianças.
-- 
-
-#### Primeira etapa
+### Primeira Etapa
 
 - Rolagem de clima (1d6).
-- Busca por evidencias, grupo vai chegar pela estrada  ( Check de Survivor ). 
-- A Cada falha de survivor o grupo perde algumas horas a mais procurando.
-- Encontro com vigilha goblin com 2 goblins e 2 lobos (Oficial) 2 goblins feridos.
-- Ambiente com armadilhas de mobilidade e algumas de dano.
-- O Ambiente tem partes utilizaveis para matar os goblins adicionais.
+- Busca por evidências e o grupo chega à estrada (Check de **Survival**).
+- A cada falha em **Survival**, o grupo perde horas procurando.
+- Encontro com uma **guarda de goblins** com 2 goblins e 2 lobos. 2 goblins estão feridos.
+- O ambiente tem armadilhas de mobilidade e de dano. Partes utilizáveis para matar goblins adicionais.
 
-#### Segunda etapa
+### Segunda Etapa
 
-- Teste de investigation ou perception 
-- Irão entrar no esconderijo dos goblins.
-- No esconderijo terão mais 4 goblins.
-- Enigma da caichoeira ( Runas Draconicas, com enigma para entrar de costas )
+- Teste de **Investigation** ou **Perception**.
+- Entram no esconderijo dos goblins.
+- No esconderijo, encontram mais 4 goblins.
+- **Enigma da Cachoeira** (Runas Dracônicas, enigma para entrar de costas).
+
+### Terceira Etapa
+
+- Exploração na caverna.
+- Teste de **Stealth** (é possível resgatar vários refugiados).
+- Combate (refugiados começam a morrer).
+- O esconderijo contém 3 grupos de goblins: 1 com reféns presos, 2 dormindo e 2 com o chefe na sala principal.
+- As mercadorias de **Lorde Astolfo** ainda estão lá. O destaque é um **baú pequeno trancado**.
+- O pedido inclui um bônus de **75 moedas de ouro** caso todas as 4 caixas e o baú sejam recuperados.
+- O grupo encontra uma **carta em Goblish**.
+- O esconderijo parece ter sido utilizado para guardar saques, com muitas coisas transportadas de lá.
+- O grupo vê pela primeira vez a face do **Acolito**.
+- A **Mercadora** está também no esconderijo.
+
+### Recompensas
+
+- 2x **Poção de Cura**  
+- 1x **Pergaminho de Truque**  
+- **90 de Gold**  
+- **Baú Mágico**  
+- **4 caixas de Alimentos**  
+  - 50 de Gold pela missão.  
+  - 25 de Gold pelas demais cargas.  
+  - **Renome Extra** caso salvem as pessoas.
+
+---
+
+# Capítulo 4
+
+- Após salvar os reféns, o grupo retorna com os itens e encontra as crianças.
+- **Lia** recebe os aventureiros e pergunta o que aconteceu.
+- O grupo avisa sobre a missão de **Lorde Astolfo**.
+- **Guilda dos Aventureiros**.
+- **Mortar** encontra o grupo na guilda.
+- Casos de **desaparecimento** e **assassinato** surgem.
+- **Lyrien** compra material para craftar **10 projéteis**.
+- Um plano é montado com **duas iscas** para capturar os sequestradores.
+- As crianças e o **Anel Brilhante** estão envolvidos no plano.
+
+---
+
+# Capítulo 5
+
+- **Essence of Ether (300gp)** pag. 91. Ao inalar, é necessário resistir ao **save DC 15 de constituição**.
+- **Encontro contra cultistas** (2000 exp):
+
+> **Encontro Inicial**  
+> 5x **Acolitos**  
+> 10x **Cultistas**
+
+> **Encontro Final** (2000xp)  
+> 2x **Cultistas Fanáticos** (450xp cada)  
+> 4x **Acolitos** (50xp cada)  
+> 4x **Cultistas** (25xp cada)  
+> 2x **Zumbis Ogros** (450xp cada)  
+> (Opcional) **Zumbi Observador**
+
+- **Culto do Esquecido**.
+- O grupo pode matar ou capturar um cultista.
+- **Enwin** é guiado pelo seu dragão, caso não tenham encontrado informações.
+- **Ritual** de 6 turnos para invocação/portal. Invocação do **Zumbi Observador**.
+- Igreja do Esquecido é inimiga do **historiador**.
+- Pessoas sequestradas mortas são envolvidas em um recipiente de pedra.
+- Ao passar informações para a guilda, o grupo recebe acesso a **Baldur's Gate** e é intimado a comparecer ao **conselho de guerra**.
+- O grupo acaba com o ritual e captura um dos cultistas.
+- Um membro será **marcado pelo culto**.
+- O guarda da cidade irá prender os marcados, mas quem capturar um cultista terá direito à liberdade.
+- O grupo é escoltado para o salão principal de **Baldur's Gate**.
+
+> **Velissa Arvannis** fala por telepatia: calma, brava e triste.
+
+- O grupo pode escolher entre ser preso ou fugir.
+
+---
+
+# Capítulo 6
+
+- O **Pseudodragão** leva o grupo até o templo do **Esquecido** no norte de **Baldur's Gueto**.
+- O **Barbarian** encontra o grupo a caminho do resgate das crianças.
+- Existem 6 pessoas presas, e a cada turno, uma morre. As crianças são as últimas a morrer.
+- **Aomine** está preso.
+- A forma de impedir o ritual é quebrando os **cristais**, atacando os **conjuradores** e matando todos os inimigos.
+- Cada acerto no inimigo atrasa o ritual em **1 turno**.
+- A cada 5 minutos, uma pessoa morre.
+- A frase do ritual: "**Ó, esquecido, guia nossas mentes ao alívio do desconhecido, apague o peso do que não nos serve mais**."
 
 
-#### Terceira etapa
+# 📖 Capítulo 7  
 
-- Exploração na caverna
-- Stealth ( Possivel resgatar varios refugiados ), Combate ( Refugiados começam morrendo )
-- Grupos de goblins separados, 1 com refens presos,  2 dormindo, 2 com o chefe na sala principal.
-- As mercadorias do Lorde Astolfo ainda estão la. O que chama mais atenção é um Bau pequeno trancado. 
-- O pedido tem um adicional, caso consigam retornar todas as 4 caixas e o bau, irão receber 75 moedas de ouro.
-- No esconderijo encontrarão uma carta em goblish.
-- O esconderijo parece ter sido usado para guardar os saques e parece que muitas coisas foram transportadas de la.
-- O Grupo ve pela primeira vez a face do Acolito.
-- NPC Mercadora está la.
+## 📌 Eventos Principais  
+- **Aomine morre.**  
+- O grupo se encontra em um **templo oculto abaixo de Baldur’s Gate**, situado sob os esgotos.  
+
+---
+
+## 🎭 Cena Atual  
+Vocês estão abaixo do solo, sem saber a profundidade exata, apenas que o caminho foi longo.  
+A noite foi longa. Vocês vieram com um propósito: **"Salvar as crianças"**, e vocês conseguiram... certo?  
+Algumas pessoas morreram, mas ninguém pode salvar a todos.  
+
+### 🎭 Sentimentos e Reflexões  
+
+- **Enwin** → O mundo nunca pareceu tão vazio. Depois de décadas sentindo a presença do seu sócio, agora parece que terá que tocar os negócios sozinho. O silêncio é perturbador.  
+- **Slinx** → Você conseguiu salvar tudo o que importava para você. Sua missão está completa, e tudo o que custou foi uma pequena dor no pescoço. Que vontade de beber uma boa... **boa o quê?**  
+- **Hopper** → Sua mente, sempre preenchida por músicas épicas e heroicas, agora é invadida por uma **balada fria e melancólica**, como se tivessem acabado de tirar uma corda do seu alaúde favorito.  
+- **Lirien** → Seu objetivo era chegar até Baldur’s Gate, e agora parece que finalmente conseguirá. Estranhamente, você se sentiu bem ao matar aqueles que estavam no seu caminho... **Você se sentiu bem em destruí-los.**  
+
+---
+
+## 🏛️ O Templo  
+Agora, sem a pressa que antes cegava, vocês enxergam de fato o cenário ao redor:  
+
+- A atmosfera é **pesada**.  
+- A névoa fina usada pelos cultistas ainda cobre o chão.  
+- O **portal** à frente—um arco que deveria levar a outro cômodo—**está selado com concreto**. Parece uma piada de mau gosto: um portal que **não leva a lugar nenhum**.  
+
+### ⚔️ O Que Ainda Está de Pé?  
+- **4 Cultistas** ainda vivos, balbuciando seu mantra repetidamente, cada um com expressões distintas.  
+- **2 Ogros**, atacando ferozmente.  
+- **3 Crianças**, amarradas e dormindo tranquilamente, inalando a névoa dos aspersores espalhados pelo ambiente.  
+- **1 Mortar**, ferido, com as costas cobertas de cortes, como se tivesse sido açoitado.  
+
+---
+
+## 🏹 O Que Pode Ser Levado Como Prova?  
+- **Tábuas** → 1 inteira e 1 quebrada.  
+- **Corpos e evidências** do local, caso consigam sair a tempo.  
+
+---
+
+## ⚠️ Momentos Críticos  
+- **O grupo sobrevive.**  
+- **Encontram o Sumo Sacerdote.**  
+- **A caverna desaba.**  
+- **Salvam e levam as crianças e Mortar.**  
+- **Vários grupos enfrentaram os cultistas**, mas apenas o **Anel que Brilha** e mais **três grupos** possuem informações úteis.  
+- **Lia organiza os documentos.**  
+- **Uma pessoa morre na guilda**, e **Slinx impede o processo de esquecimento.**  
+- **Parsath leva as crianças para casa.**  
+- **As feridas de Mortar não cicatrizam.**  
+- **A guilda escoltará o grupo para dentro de Baldur’s Gate.**  
+- **Slinx está marcado.**  
+- **Enwin recupera seus poderes e se lembra de Aomine** por meio da entidade, notando seu nome tatuado no braço.  
+- **O grupo suspeita que O Esquecido manipulou a crença das pessoas** para fazê-las pensar que o demônio parou de cobrar seus contratos.  
+- **Lirien acredita que O Esquecido fez com que as pessoas esquecessem o demônio dos contratos.**  
+- **O grupo verifica os papéis da guilda** para rastrear pessoas desaparecidas.  
+- **Muitos grupos e pessoas foram esquecidos.**  
+- **Lirien sempre erra os nomes.**  
+
+---
+
+> **Caçadora, Clériga, Guerreiro, Mago, Druida.**  
+> **Ladino hobbit, Anão Cozinheiro, Elfa Maga, Guerreiro.**  
+> **O Anel que Brilha.**  
+> **Um cara, três garotas.**  
 
 
-#### RECOMPENSAS
+# Capitulo 8
 
-- 2x poção de cura 
-- 1x pergaminho de truque
-- 90 de Gold
-- Bau Mágico
-- 4 caixas de Alimentos
--- 50 de Gold da quest
--- 25 de Gold a mais para as demais cargas
--- Renome Extra caso salvem as pessoas
-
-### Capitulo 4
-
-- Após salvar os refens o grupo retorna com os itens e encontra as crianças. 
-- Lia recebe os aventureiros e perguntam o que aconteceu.
-- Foram avisar o lorde Astolfo sobre sua missão.
-- Guilda dos Aventureiros 
-- Mortar recebe a noticia e encontra o grupo na guilda.
-- Casos de desaparecimento, assassinato.
-- Lyrien compra material para craftar 10 projeteis
-- Montaram um plano com duas iscas para pegarem os sequestradores
-- Crianças e o Anel Brilha estão envolvidos nos planos
-
-
-### Capitulo 5
-
-- Essence of Ether (300gp) pag. 91. Ao inalar deve resistir ao save DC 15 de constituição.
-- Encontro contra cultistas ( 2000 exp )
-
-> Encontro Inicial
-> 5x Acolito 
-> 10x Cultistas 
-
-> Encontro Final 2000xp
-> 2 cultistas fanaticos 2x(450xp) 900xp
-> 4 acólitos 4x(50) 200
-> 4 cultistas 4x(25) 100
-> 2 Zumbis ogros 2x(450) 900xp
-> ( Opcional ) Zumbi Observador 
- 
-- Culto do Esquecido
-- Grupo pode matar ou capturar um cultista. 
-- Enwin é guiado pelo seu dragão caso não tenham encontrado nenhuma informação.
-- Ritual de 6 turnos para invocação/portal - Invocação do Zumbi observador
-- Igreja do Esquecido, inimigo/opositor ao historiador
-- Pessoas sequestradas mortas envolva de um recipiente de pedra
-- Ao passar informação para guilda os membros recebem acesso a Baldurs Gate e são intimados a comparecerem ao conselho de guerra.
-
-- Grupo acaba com o Ritual e captura um dos custistas.
-- Um dos membros será marcado pelo Culto.
-- Guarda da cidade irá prender os que forem marcados.
-- Caso o grupo prenda um cultista terá, direito a liberdade. 
-- Grupo será escoltado para o salão principal de Baldurs Gate.
-
-> Velissa Arvannis, fala por telepatia, calma e brava, triste.
-
-- Grupo pode aceitar ser preso ou fugir.
-
-### Capitulo 6
-
-- O pseudodragão leva o grupo até o templo do esquecido no norte de baldurs gueto.
-- O Barbaro encontra o grupo a caminho do resgate das crianças
-- Existem 6 pessoas presas a cada turno uma pessoa morre
-- As crianças serão as ultimas a morrer 
-- Aomine esté preso
-- Maneira de impedir o ritual é quebrando os cristais, atacando os conjuradores, matando todos.
-- Cada acerto nos inimigos do ritual atrasam o ritual em 1 turno
-- A cada 5 minutos uma pessoa morre
-- "Ó, esquecido, guia nossas mentes ao alívio do desconhecido, apague o peso do que não nos serve mais."
-
-### Capitulo 7 
-
-- Aomine morre.
-- Grupo se encontra em um templo abaixo de Baldurs Gueto.
-- O templo está abaixo dos esgotos de baldurs gate.
-
-- Vocês se encontram abaixo do solo. Vocês não sabem a profundidade, mas sabem que o caminho foi longo. A noite foi longa. Vocês vieram com um propósito: "Salvar as crianças", vocês tem certeza disso.
-E vocês conseguiram não é? Algumas pessoas morreram, mas ninguem consegue salvar a todos.
-
-Enwin, o mundo nunca foi tão vazio, depois de decadas sentindo a presença do seu sócio, agora você parece ter que tocar os negocios sozinho. O Silencio é perturbador.
-Slinx, você conseguiu você salvou tudo o que importava para você, a sua missão está completa, e tudo o que custou foi uma pequena dor no pescoço, que vontade de beber uma boa... boa o que ?
-Hopper, sua mente que sempre é preenchida por musicas épicas e temas heróicos é invadida por uma balada fria e melancólica, como se tivessem acabado de tirar uma corda do seu alaude favorito.
-Lirien, seu objetivo era conseguir chegar até Baldurs Gate, e você acha que agora vai conseguir, você se sente estranhamente bem em matar aqueles que estão no seu caminho, 
-você se sentiu bem em destrui-los.
-
-Agora vocês conseguem ver de fato a cena sem ter a pressa os deixando cegos.
-Vocês estão em um templo, a atmosfera é pesada, a névoa que os custistas usavam está fina, está um pouco acima da linha de seus pés.
-Os que estão a frente conseguem ver o portal. Um arco que idealmente serviria como passagem para um outro comodo, mas que o outro lado está selado com concreto. Parecendo uma piada de mal gosto. Um portal que não leva a nenhum lugar. Pelo menos ele vai levar vocês a lugar nenhum hoje.
-
-4 Cultistas ainda estão vivos, balbuciando seu mantra varias e varias vezes em velocidade diferentes, com expressões distintas.
-2 Ogros se mantem de pé, atacando os que estão próximos.
-3 Crianças estão no chão, amarradas, e dormindo tranquilamente, enquanto respiram a névoa fina que sai de aspesórios espalhados pelo ambiente, preenchendo-o.
-1 Mortar, ferido,com as costas abertas, não um corte apenas, mas vários, como se tivesse sido açoitado por roubar a dama de um nobre.
-
-- O grupo pode levar para comprovar o acontecido: 
-- As tabuas 1 inteira e uma quebrada.
-- Local irá desmoronar 
-- Aparece atrás de vocês o Sumo
-- Conversa com o grupo, tentando os convercer de de algo, oferendo algo. 
-
-> Caçadora, Cleriga, Guerreiro, Mago, Druida.
-> Ladino hobbit, Anão Cozinheiro, Elfa Maga, guerreiro.
-> Anel que Brilha.
-> Um cara, 3 garotas. 
-
-1. O grupo se salva.
-2. Encontram o Sumo Sacerdote.
-3. A caverna desaba.
-4. Salvam e levam as crianças e Mortar.
-5. Vários grupos enfrentaram os cultistas, mas apenas o Anel que Brilha e outros três grupos possuem informações úteis.
-6. Lia organiza os documentos.
-7. Uma pessoa morre na guilda, e o processo de esquecimento é interrompido por Slinx.
-8. Parsath leva as crianças para casa.
-9. O grupo nota as feridas de Mortar que não cicatrizam.
-10. A guilda escoltará o grupo para dentro de Baldur's Gate.
-11. Slinx está Marcado.
-12. Enwin recupera seus poderes e se lembra de Aomine por meio da entidade, ele tem o nome tatuado no braço.
-13. O grupo suspeita que O Esquecido manipulou a crença das pessoas para que pensem que o demônio parou de cobrar seus contratos.
-14. Lyrien acha que o esquecido fez com que as pessoas esquecessem o demonio dos contratos.
-15. Grupo verifica os papeis da guilda, para verificar quais pessoas desapareceram.
-16. Varios grupos, varias pessoas deixaram de ser lembradas.
-17. Lyrien sempre erra os nomes.
-
-### Capitulo 8
 1. Grupo escoltado.
 2. Mais grupos apresentados.
 3. Liberado acesso a área comercial por tempo limitado.
@@ -331,66 +359,197 @@ Os que estão a frente conseguem ver o portal. Um arco que idealmente serviria c
     Há rumores de pescadores desaparecendo e corpos encontrados com marcas de garras. Alguns dizem que os merfolks estão planejando atacar a cidade.
   ---
 
-9. 
-  Perguntas dos Guardas
-  "Onde e quando vocês viram esse ritual acontecer?"
+## 🛡️ Perguntas dos Guardas  
 
-  Para determinar a localização exata e há quanto tempo ocorreu.
-  "Quantas pessoas estavam envolvidas e como elas se vestiam?"
+Os guardas fazem uma série de perguntas para investigar o ritual e suas consequências.  
 
-  Para identificar os cultistas e possíveis cúmplices.
-  "Havia algum símbolo, estátua ou inscrição no local?"
+### 🔍 Perguntas e Motivos  
 
-  Para descobrir a qual entidade ou grupo o ritual estava associado.
-  "Vocês reconheceram alguém que participou do ritual?"
+1️⃣ **"Onde e quando vocês viram esse ritual acontecer?"**  
+- Para determinar a **localização exata** e há **quanto tempo** ocorreu.
 
-  Para investigar possíveis cidadãos ou figuras influentes envolvidas.
-  "Como vocês escaparam ou sobreviveram ao ritual?"
+2️⃣ **"Quantas pessoas estavam envolvidas e como elas se vestiam?"**  
+   - Para **identificar os cultistas** e possíveis cúmplices.  
 
-  Para entender se os aventureiros foram poupados intencionalmente ou se há algo mais em jogo.
-  "Vocês sentem que algo foi apagado de suas memórias?"
+3️⃣ **"Havia algum símbolo, estátua ou inscrição no local?"**  
+   - Para descobrir a qual **entidade ou grupo** o ritual estava associado.  
 
-  Para identificar se a magia de esquecimento funcionou totalmente ou deixou lacunas.
-  "Havia vítimas? Vocês conseguem descrevê-las?"
+4️⃣ **"Vocês reconheceram alguém que participou do ritual?"**  
+   - Para investigar possíveis **cidadãos ou figuras influentes** envolvidas.  
 
-  Para descobrir se alguém desaparecido pode ser rastreado.
-  "Vocês viram algum objeto estranho ou ritualístico?"
+5️⃣ **"Como vocês escaparam ou sobreviveram ao ritual?"**  
+   - Para entender se os aventureiros foram **poupados intencionalmente** ou se há algo mais em jogo.  
 
-  Para saber se há artefatos que possam ser analisados por magos da cidade.
-  "Alguém tentou impedir o ritual ou alertar as autoridades?"
+6️⃣ **"Vocês sentem que algo foi apagado de suas memórias?"**  
+   - Para identificar se a **magia de esquecimento** funcionou totalmente ou deixou **lacunas**.  
 
-  Para descobrir se há resistência ao culto dentro da cidade.
-  "Vocês têm alguma prova física do que aconteceu?"
+7️⃣ **"Havia vítimas? Vocês conseguem descrevê-las?"**  
+   - Para descobrir se **alguém desaparecido** pode ser rastreado.  
 
-  Para validar o testemunho e conduzir uma investigação mais profunda.
-  Essas perguntas ajudam a construir um mistério e direcionar a investigação na campanha. Quer que eu adicione isso ao documento atual? 
+8️⃣ **"Vocês viram algum objeto estranho ou ritualístico?"**  
+   - Para saber se há **artefatos que possam ser analisados** por magos da cidade.  
+
+9️⃣ **"Alguém tentou impedir o ritual ou alertar as autoridades?"**  
+   - Para descobrir se há **resistência ao culto** dentro da cidade.  
+
+🔟 **"Vocês têm alguma prova física do que aconteceu?"**  
+   - Para validar o testemunho e conduzir uma **investigação mais profunda**.  
+
+Essas perguntas ajudam a **construir um mistério** e direcionar a **investigação na campanha**.  
+
+- Mona despetou o interesse do Lyrien.
+- Lyrien sabe agora da existencia dos Gnomos criadores de armas.
+- Ele tem o simbolo dos gnomos.
+- Slinx recebeu uma coleira que irá o matar caso ele fique louco.
+- Valessa proibe a investigação sobre o esquecido.
+- Enwin acredita que existe uma grande conspiração e que Valessa está envolvida.
+- O grupo percorreu a cidade toda escoltado pelo Falkor.
+- Hopper na guilda.
+- Valessa sabe que o Slinx está marcado.
+- O grupo irá receber um outro cristal que brilha.
+
+### Preparação capitulo 11
+
+  - 
 
 
 
+# Pilulas Principais
 
-### Culto do Esquecido
-- Objetivo da Entidade: Fazer com que as pessoas esqueçam os principais deuses e venerem o esquecido.
-- Motivo: O esquecido retira seus medos, inseguranças, desejos e tudo o que a pessoa considera a que torna pior ou fraca.
-- 3 Sacerdotes principais: Xortuu, Longro, Instam
-- Estão buscando/sequestrando novos fieis para trazer criaturas infernais abençoadas pelo deus corrupto.
-- Objetivo dos Sacerdotes: Melhorar o mundo.
+## 1. Condado do Vampiro  
+Uma vila dividida entre a riqueza e a pobreza, com um passado sombrio controlado por um vampiro poderoso.  
 
-### Nome do grupo - O Anel Brilha
+### 📌 Características da Vila  
+- Vila pobre onde pessoas desaparecem misteriosamente.  
+- Um grande **muro separa** a parte pobre da parte rica.  
+- **Entrada para a vila pobre** é secreta e oculta.  
+- Apesar das dificuldades, os moradores são **alegres e receptivos**, sem causar problemas.  
 
-### Musica do Hopper 
-Na terra das sombras e do destino, Um grupo destemido se uniu, O Anel Brilha em sua jornada, Heróis corajosos, ninguém os para.
-O Anel Brilha, no céu e no chão, Com coragem, enfrentam a escuridão, Seu brilho é a força, sua luz a guia, O Anel Brilha, na alma e na magia.
-Um coelho ágil, com pés ligeiros, Um elfo sábio, dos rifles certeiros, Uma criança pura, cheia de esperança, Um draconato feroz, com sua lança.
-Um humano valente, com coração de aço, Juntos são invencíveis, ninguém quebra seu laço, Em cada aventura, em cada batalha, O Anel Brilha, e nunca falha.
-O Anel Brilha, no céu e no chão, Com coragem, enfrentam a escuridão, Seu brilho é a força, sua luz a guia, O Anel Brilha, na alma e na magia.
+### 🧛 Influência do Vampiro  
+- O vampiro **exilou todos os nobres** na zona pobre.  
+- A vila rica **se alimenta dos antigos pobres**, criando um ciclo de terror.  
+- **Mulheres grávidas e crianças foram exterminadas** pelo vampiro.  
+- O **"Esquecido" alterou as memórias dos nobres**, fazendo-os esquecer que eram os verdadeiros donos da vila.  
 
-## Encontro com Mercador
+---
 
-Pedido Inicial do Mercador
+## 2. Esgotos de Baldur's Gate  
+Um mundo subterrâneo onde antigos moradores deram lugar ao novo governante dos esgotos: **Memefork, o Segundo**.  
 
-Após os jogadores finalmente encontrarem o mercador, ele explica que seu problema está diretamente ligado ao caos causado pelo êxodo. O mercador revela que, no passado, havia feito negócios com o poderoso demônio que foi destruído. Parte desse acordo envolvia o transporte de itens extremamente valiosos e perigosos para os cofres de Baldur’s Gate, caso algo acontecesse ao demônio. Esses itens, espalhados por diferentes regiões de Faerûn, são de vital importância para consolidar o poder daqueles que agora disputam o vazio deixado no inferno.
+### 📌 Situação Atual  
+- Após a **reconstrução de Baldur’s Gate**, os antigos moradores abandonaram os esgotos.  
+- Agora, o local é dominado por **Memefork, o Segundo**.  
 
-O mercador acreditava que estava agindo em sigilo, mas descobriu que alguém também sabia do acordo. Durante o transporte dos itens, seus comboios foram atacados, e a carga foi perdida. Ele suspeita que cultistas ou agentes de outras forças infernais estejam por trás dos ataques, tentando reivindicar os itens para os seus mestres.
+### 🦝 Memefork e sua Regência  
+- Filho de um **coiote** que morreu de **causas naturais** há algum tempo.  
+- Apesar da morte do pai, Memefork acredita que ele **ainda está ao seu lado**.  
+- Possui um **"Palácio" subterrâneo** com **dois tronos**:  
+  - Um **gigante**, reservado para seu falecido pai.  
+  - Um **menor**, onde Memefork se senta.  
+- **Continua o legado** do pai, ajudando aqueles que querem entrar em Baldur’s Gate **por meios não convencionais**.  
 
-O mercador, desesperado e ciente das consequências, pede a ajuda dos jogadores para investigar o que aconteceu e, se possível, recuperar os itens roubados. Ele reforça que, mesmo que o grupo não consiga reaver os objetos, qualquer informação ou pista sobre os responsáveis seria de grande valor. Essa se torna a primeira missão do grupo, colocando-os no centro de um conflito que transcende Faerûn e ameaça desestabilizar o equilíbrio entre os planos.
+### 🃏 Peculiaridades  
+- Fala de maneira exagerada, enfatizando **"cinquenNNNNTA"**.  
+- Possui **três ajudantes oficiais**.  
+- Cobra **favores como pagamento** de quem deseja entrar clandestinamente na cidade.  
 
+---
+
+## 3. O Loop da Ilha  
+Uma ilha misteriosa surge e desaparece na Costa da Espada, escondendo um segredo trágico de uma fada regente.  
+
+### 📌 Características da Ilha  
+- **Surgiu recentemente** próxima à Costa da Espada.  
+- Quem **entra na floresta da ilha nunca retorna**.  
+- A ilha parece **sumir e reaparecer** conforme a atenção das pessoas se desvia.  
+
+### 🧚‍♀️ A Maldição da Ilha  
+- Trata-se de uma **ilha feérica**, governada por uma **fada regente**.  
+- A fada, devastada pela **perda de sua filha**, fez um **pacto com o Esquecido** para apagar sua dor.  
+- Como consequência, **esqueceu completamente a existência da própria filha**.  
+- Esse pacto criou **lacunas em sua memória**, transformando a ilha em uma **armadilha** para qualquer um que pisa nela.  
+
+### 🎭 O Destino da Fada Regente  
+- Agora, a fada **passa os dias fixada em um quadro de sua filha**.  
+- Se ela desviar o olhar, **esquecerá completamente a única lembrança que lhe resta**.  
+
+
+# Culto do Esquecido  
+Uma seita dedicada a propagar a adoração ao Esquecido, buscando apagar a memória dos principais deuses.  
+
+### 🎭 Objetivo da Entidade  
+- Fazer com que as pessoas **esqueçam os deuses principais** e passem a venerar o Esquecido.  
+
+### 🌀 Motivo  
+- O Esquecido **retira os medos, inseguranças, desejos** e tudo que as pessoas consideram fraquezas.  
+- Promete uma existência livre do peso da identidade e das emoções.  
+
+### 🔥 Sacerdotes Principais  
+- **Xortuu**  
+- **Longro**  
+- **Instam**  
+
+### ⚔️ Atividades do Culto  
+- **Sequestram novos fiéis** para corrompê-los e convertê-los.  
+- **Trazem criaturas infernais** abençoadas pelo deus corrupto.  
+- **Objetivo dos Sacerdotes:** "Melhorar o mundo" através do esquecimento.  
+
+---
+
+# 🌟 Nome do Grupo  
+### **O Anel Brilha**  
+
+---
+
+# 🎵 Música do Hopper  
+
+**Na terra das sombras e do destino,**  
+**Um grupo destemido se uniu,**  
+**O Anel Brilha em sua jornada,**  
+**Heróis corajosos, ninguém os para.**  
+
+**O Anel Brilha, no céu e no chão,**  
+**Com coragem, enfrentam a escuridão,**  
+**Seu brilho é a força, sua luz a guia,**  
+**O Anel Brilha, na alma e na magia.**  
+
+**Um coelho ágil, com pés ligeiros,**  
+**Um elfo sábio, dos rifles certeiros,**  
+**Uma criança pura, cheia de esperança,**  
+**Um draconato feroz, com sua lança.**  
+
+**Um humano valente, com coração de aço,**  
+**Juntos são invencíveis, ninguém quebra seu laço,**  
+**Em cada aventura, em cada batalha,**  
+**O Anel Brilha, e nunca falha.**  
+
+**O Anel Brilha, no céu e no chão,**  
+**Com coragem, enfrentam a escuridão,**  
+**Seu brilho é a força, sua luz a guia,**  
+**O Anel Brilha, na alma e na magia.**  
+
+---
+
+# 🏪 Encontro com o Mercador  
+
+## 📜 Pedido Inicial do Mercador  
+
+Após finalmente encontrarem o **mercador**, os jogadores descobrem que seu problema está diretamente ligado ao caos causado pelo **êxodo infernal**.  
+
+### 🔥 O Passado do Mercador  
+- No passado, ele fez **negócios com um poderoso demônio** que foi destruído.  
+- Parte do acordo envolvia o transporte de **itens valiosos e perigosos** para os cofres de Baldur’s Gate caso algo acontecesse ao demônio.  
+- Agora, esses itens estão espalhados por **diferentes regiões de Faerûn** e podem consolidar o poder de quem os obtiver.  
+
+### ⚔️ O Problema Atual  
+- O mercador acreditava estar **atuando em sigilo**, mas alguém descobriu sobre o acordo.  
+- Durante o transporte, **seus comboios foram atacados e os itens foram roubados**.  
+- Ele suspeita que **cultistas ou agentes infernais** estão por trás dos ataques.  
+
+### 🛡️ Pedido aos Jogadores  
+- **Investigar** o que aconteceu com os comboios.  
+- **Recuperar os itens roubados**, se possível.  
+- **Descobrir quem está por trás dos ataques** e quais são suas intenções.  
+- Mesmo que os jogadores não consigam reaver os objetos, qualquer **informação ou pista** será de grande valor.  
+
+Com isso, o grupo se vê no **centro de um conflito** que transcende Faerûn e ameaça desestabilizar o **equilíbrio entre os planos**.  
