@@ -1,39 +1,22 @@
 import { Component } from '@angular/core';
-import { CommonModule, NgClass } from '@angular/common';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { Creature } from '../../../shared/models/creature.model';
 import { SkillLevel } from '../../../shared/models/skill.model';
 
 @Component({
   selector: 'app-list-creature',
   standalone: true,
-  imports: [CommonModule, NgClass],
+  imports: [CommonModule, FormsModule],
   templateUrl: './list-creature.component.html',
   styleUrl: './list-creature.component.scss'
 })
 export class ListCreatureComponent {
 
   columnsCreatures = [
-    'Nome',
-    'AC',
-    'Vida',
-    'Speed',
-    'STR',
-    'DEX',
-    'CON',
-    'INT',
-    'WIS',
-    'CHA',
-    'Skills',
-    'Imunidades',
-    'Resistências',
-    'Senses',
-    'Languages',
-    'Nivel',
-    'Descrição',
-    'Ações',
-    'Página'
+    'Nome', 'AC', 'Vida', 'Speed', 'STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA', 'Skills', 'Imunidades', 'Resistências', 'Senses', 'Languages', 'Nivel', 'Descrição', 'Ações', 'Página'
   ];
-  
+
   creatures: Creature[] = [
     new Creature({
       name: "Goblin",
@@ -63,7 +46,7 @@ export class ListCreatureComponent {
           description: 'Testes de Ocultação'
         },
       ],
-      senses: ["Darkvision 60ft","Perception 9"],
+      senses: ["Darkvision 60ft", "Perception 9"],
       languages: ["Common", "Goblin"],
       page: 172,
     }),
@@ -368,16 +351,15 @@ export class ListCreatureComponent {
     }),
   ];
 
-
-
   getModifier(score: number) {
     return Math.floor((score - 10) / 2);
   }
 
   setSaveModifier(score: number | undefined, mod: number) {
-    if (score || score == 0) {
-      return score + mod;
-    }
-    return 0;
+    return score !== undefined ? score + mod : 0;
+  }
+
+  editar(creature: Creature) {
+    console.log(creature);
   }
 }

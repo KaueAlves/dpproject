@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms'; // Add this import
 import { Player } from '../../../shared/models/player.model';
 
 @Component({
   selector: 'app-list-character',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule], // Add FormsModule here
   templateUrl: './list-character.component.html',
   styleUrl: './list-character.component.scss'
 })
@@ -49,12 +50,12 @@ export class ListCharacterComponent {
   players: Player[] = [
     new Player({
       player: 'Murilo',
-      name: 'Bruxa',
+      name: 'Enwin',
       classe: ['Bruxa'],
-      nivel: [1],
+      nivel: [3],
       proficiency: 2,
-      currentLife: 9,
-      maxLife: 9,
+      currentLife: 21,
+      maxLife: 21,
       armorClass: 12,
       ability: {
         str: { value: 7, isSave: false },
@@ -69,11 +70,11 @@ export class ListCharacterComponent {
       player: 'Chera',
       name: 'Slinx Hellbrand',
       classe: ['Guerreiro'],
-      nivel: [1],
+      nivel: [3],
       proficiency: 2,
-      currentLife: 12,
-      maxLife: 12,
-      armorClass: 10,
+      currentLife: 24,
+      maxLife: 24,
+      armorClass: 15,
       ability: {
         str: { value: 15, isSave: true },
         dex: { value: 16, isSave: false },
@@ -89,8 +90,8 @@ export class ListCharacterComponent {
       classe: ['Bardo'],
       nivel: [1],
       proficiency: 2,
-      currentLife: 11,
-      maxLife: 11,
+      currentLife: 27,
+      maxLife: 27,
       armorClass: 15,
       ability: {
         str: { value: 8, isSave: false },
@@ -102,8 +103,8 @@ export class ListCharacterComponent {
       },
     }),
     new Player({
-      player: 'Andrey',
-      name: 'Zorath',
+      player: 'Andrey ( Morto )',
+      name: 'Aomine',
       classe: ['Monge'],
       nivel: [1],
       proficiency: 2,
@@ -125,8 +126,8 @@ export class ListCharacterComponent {
       classe: ['Guerreiro'],
       nivel: [1],
       proficiency: 2,
-      currentLife: 12,
-      maxLife: 12,
+      currentLife: 24,
+      maxLife: 24,
       armorClass: 17,
       ability: {
         str: { value: 14, isSave: true },
@@ -135,6 +136,24 @@ export class ListCharacterComponent {
         int: { value: 16, isSave: false },
         wis: { value: 14, isSave: false },
         cha: { value: 14, isSave: false },
+      },
+    }),
+    new Player({
+      player: 'Parsath',
+      name: 'Joelzão',
+      classe: ['Barbaro'],
+      nivel: [3],
+      proficiency: 2,
+      currentLife: 35,
+      maxLife: 35,
+      armorClass: 17,
+      ability: {
+        str: { value: 18, isSave: false },
+        dex: { value: 14, isSave: false },
+        con: { value: 16, isSave: false },
+        int: { value: 9, isSave:  false },
+        wis: { value: 12, isSave: false },
+        cha: { value: 10, isSave: false },
       },
     }),
   ]
@@ -254,6 +273,7 @@ export class ListCharacterComponent {
       },
     }),
   ];
+Object: any;
 
   ngOnInit() {
  

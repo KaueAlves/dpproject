@@ -1,70 +1,39 @@
 <div class="row">
-    <div class="col-12">
+    <div class="col-12 mb-2">
         <h3 class="text-zinc-100 font-bold">PLAYERS</h3>
         <hr>
     </div>
-</div>
 
-<div class="overflow-auto w-full mb-3">
-    <table class="table-auto w-full text-white border-spacing-4">
-        <thead>
-            <tr>
-                <th *ngFor="let columnPlayer of columnsPlayer " class="text-left ">{{ columnPlayer }}</th>
-            </tr>
-        </thead >
-        <tbody>
-            <tr *ngFor="let player of players; let i = index" [ngClass]="{'bg-zinc-600': i%2 == 0}">
-                <td class="text-left px-2 py-1 border"> {{ player.player }}</td>
-                <td class="text-left px-2 py-1 border text-nowrap font-bold"> {{ player.name }}</td>
-                <td class="text-center px-2 py-1 border" style="text-wrap: nowrap;"> <input type="text" class="pr-1" style="max-width: 25px;color:black; text-align: right;" [value]="player.currentLife"> / <span style="width: 20px; display: inline-block;">{{player.maxLife}}</span></td>
-                <td class="text-left px-2 py-1 border"> {{ player.classe }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.nivel }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.armorClass }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.proficiency }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.perception }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.getModifier('str') }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.str.isSave'}">{{ player.ability.str.isSave ? ' | ' + player.getSaveModifier('str') : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.getModifier('dex') }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.dex.isSave'}">{{ player.ability.dex.isSave ? ' | ' + player.getSaveModifier('dex') : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.getModifier('con') }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.con.isSave'}">{{ player.ability.con.isSave ? ' | ' + player.getSaveModifier('con') : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.getModifier('int') }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.int.isSave'}">{{ player.ability.int.isSave ? ' | ' + player.getSaveModifier('int') : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.getModifier('wis') }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.wis.isSave'}">{{ player.ability.wis.isSave ? ' | ' + player.getSaveModifier('wis') : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ player.getModifier('cha') }}<span [ngClass]="{'text-blue-500 font-bold': 'player.ability.cha.isSave'}">{{ player.ability.cha.isSave ? ' | ' + player.getSaveModifier('cha') : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> <button class="hover:underline" (click)="editar(player)">Editar</button></td>
-            </tr>
-        </tbody>
-    </table>
-</div> 
-
-<div class="row">
-    <div class="col-12">
-        <h3 class="text-zinc-100 font-bold">NPC</h3>
-        <hr>
+    <!-- CARD PLAYER -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div *ngFor="let player of players"
+            class="bg-zinc-800 text-white shadow-lg rounded-lg overflow-hidden border border-zinc-600 flex flex-col justify-between">
+            <div>
+                <div class="bg-zinc-700 text-white p-4">
+                    <h2 class="text-2xl font-bold">{{ player.name }}</h2>
+                    <p class="text-sm">{{ player.player }}</p>
+                </div>
+                <div class="p-4">
+                    <p class="mb-2"><strong>Classe:</strong> {{ player.classe?.join(', ') }}</p>
+                    <p class="mb-2"><strong>Nível:</strong> {{ player.nivel.join(', ') }}</p>
+                    <p class="mb-2"><strong>Vida:</strong>
+                        <input type="number" [(ngModel)]="player.currentLife"
+                            class="bg-zinc-600 text-white rounded p-1 w-16 ms-2" />/{{ player.maxLife }}
+                    </p>
+                    <p class="mb-2"><strong>AC:</strong> {{ player.armorClass }}</p>
+                    <p class="mb-2"><strong>Proficiency:</strong> {{ player.proficiency }}</p>
+                    <div class="grid grid-cols-2 gap-2">
+                        <p><strong>STR:</strong> {{ player.ability.str.value }}</p>
+                        <p><strong>DEX:</strong> {{ player.ability.dex.value }}</p>
+                        <p><strong>CON:</strong> {{ player.ability.con.value }}</p>
+                        <p><strong>INT:</strong> {{ player.ability.int.value }}</p>
+                        <p><strong>WIS:</strong> {{ player.ability.wis.value }}</p>
+                        <p><strong>CHA:</strong> {{ player.ability.cha.value }}</p>
+                    </div>
+                </div>
+            </div>
+            <button (click)="editar(player)"
+                class="mt-4 w-full bg-zinc-600 text-white py-2 px-4 rounded hover:bg-zinc-700">Editar</button>
+        </div>
     </div>
 </div>
-
-<div class="overflow-auto w-full">
-    <table class="table-auto w-full text-white border-spacing-4 mb-3">
-        <thead>
-            <tr>
-                <th *ngFor="let columnNpc of columnsNpc " class="text-left ">{{ columnNpc }}</th>
-            </tr>
-        </thead >
-        <tbody>
-            <tr *ngFor="let npc of npcs; let i = index" [ngClass]="{'bg-zinc-600': i%2 == 0}">
-                <td class="text-left px-2 py-1 border text-nowrap font-bold"> {{ npc.name }}</td>
-                <td class="text-center px-2 py-1 border" style="text-wrap: nowrap;"> <input type="text" class="pr-1" style="max-width: 25px;color:black; text-align: right;" [value]="npc.currentLife"> / <span style="width: 20px; display: inline-block;">{{npc.maxLife}}</span></td>
-                <td class="text-left px-2 py-1 border"> {{ npc.classe }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.nivel }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.armorClass }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.proficiency }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.perception }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('str') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.str.isSave'}">{{ npc.ability.str.isSave ? ' | ' + npc.getSaveModifier('str') : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('dex') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.dex.isSave'}">{{ npc.ability.dex.isSave ? ' | ' + npc.getSaveModifier('dex') : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('con') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.con.isSave'}">{{ npc.ability.con.isSave ? ' | ' + npc.getSaveModifier('con') : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('int') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.int.isSave'}">{{ npc.ability.int.isSave ? ' | ' + npc.getSaveModifier('int') : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('wis') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.wis.isSave'}">{{ npc.ability.wis.isSave ? ' | ' + npc.getSaveModifier('wis') : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ npc.getModifier('cha') }}<span [ngClass]="{'text-blue-500 font-bold': 'npc.ability.cha.isSave'}">{{ npc.ability.cha.isSave ? ' | ' + npc.getSaveModifier('cha') : null}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> <span>{{npc.description }}</span></td> 
-            </tr>
-        </tbody>
-    </table>
-</div> 

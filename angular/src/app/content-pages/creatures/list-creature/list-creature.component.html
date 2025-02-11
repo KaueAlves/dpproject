@@ -1,43 +1,48 @@
 <div class="row">
-    <div class="col-12">
+    <div class="col-12 mb-2">
         <h3 class="text-zinc-100 font-bold">CRIATURAS</h3>
         <hr>
     </div>
+
+    <!-- CARD CREATURE -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div *ngFor="let creature of creatures"
+            class="bg-zinc-800 text-white shadow-lg rounded-lg overflow-hidden border border-zinc-600 flex flex-col justify-between">
+            <div>
+                <div class="bg-zinc-700 text-white p-4">
+                    <h2 class="text-2xl font-bold">{{ creature.name }}</h2>
+                    <p class="text-sm">{{ creature['type'] }}</p>
+                </div>
+                <div class="p-4">
+                    <p class="mb-2"><strong>Classe:</strong> {{ creature['classe']?.join(', ') }}</p>
+                    <p class="mb-2"><strong>Nível:</strong> {{ creature.nivel }}</p>
+                    <p class="mb-2"><strong>Vida:</strong>
+                        <input type="number" [(ngModel)]="creature.currentLife"
+                            class="bg-zinc-600 text-white rounded p-1 w-16 ms-2" />/{{ creature.maxLife }}
+                    </p>
+                    <p class="mb-2"><strong>AC:</strong> {{ creature.armorClass }}</p>
+                    <div class="grid grid-cols-2 gap-2">
+                        <p><strong>STR:</strong> {{ creature.ability.str.value }}</p>
+                        <p><strong>DEX:</strong> {{ creature.ability.dex.value }}</p>
+                        <p><strong>CON:</strong> {{ creature.ability.con.value }}</p>
+                        <p><strong>INT:</strong> {{ creature.ability.int.value }}</p>
+                        <p><strong>WIS:</strong> {{ creature.ability.wis.value }}</p>
+                        <p><strong>CHA:</strong> {{ creature.ability.cha.value }}</p>
+                    </div>
+                    <div class="mt-2">
+                        <p><strong>Skills:</strong> <span *ngFor="let skill of creature.skills">{{ skill.name }}+{{skill.abilityMod}}<br></span></p>
+                        <p><strong>Imunidades:</strong> <span *ngFor="let immunityDamage of creature.immunitysDamage">{{ immunityDamage }}<br></span><span *ngFor="let immunityCondition of creature.immunitysCondition">{{ immunityCondition }}<br></span></p>
+                        <p><strong>Resistências:</strong> <span *ngFor="let resistence of creature.resistences">{{ resistence }}<br></span></p>
+                        <p><strong>Senses:</strong> <span *ngFor="let sense of creature.senses">{{ sense }}<br></span></p>
+                        <p><strong>Languages:</strong> {{ creature.languages?.join(', ') }}</p>
+                        <p><strong>Descrição:</strong> <span *ngFor="let description of creature.descriptions">{{ description }}<br></span></p>
+                        <p><strong>Ações:</strong> <span *ngFor="let action of creature.actions">{{ action }}<br></span></p>
+                        <p><strong>Página:</strong> {{ creature.page }}</p>
+                    </div>
+                </div>
+            </div>
+            <button (click)="editar(creature)"
+                class="mt-4 w-full bg-zinc-600 text-white py-2 px-4 rounded hover:bg-zinc-700">Editar</button>
+        </div>
+    </div>
 </div>
-
-<div class="overflow-auto w-full">
-    <table class="table-auto w-full text-white border-spacing-4">
-        <thead>
-            <tr>
-                <th *ngFor="let columnCreatures of columnsCreatures " class="text-left ">{{ columnCreatures }}</th>
-            </tr>
-        </thead >
-        <tbody>
-            <tr *ngFor="let creature of creatures; let i = index" [ngClass]="{'bg-zinc-600': i%2 == 0}">
-                <td class="text-left sticky-col px-2 py-1 border  font-bold" [ngClass]="{'bg-zinc-600': i%2 == 0,'bg-zinc-700': i%2 == 1}"> {{ creature.name }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.armorClass }}</td>
-                <td class="text-center px-2 py-1 border" style="text-wrap: nowrap;"> <input type="text" class="pr-1" style="max-width: 25px;color:black; text-align: right;" [value]="creature.currentLife"> / <span style="width: 20px; display: inline-block;">{{creature.maxLife}}</span></td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.speed }}ft</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.getModifier('str') }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.getModifier('dex') }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.getModifier('con') }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.getModifier('int') }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.getModifier('wis') }}</td>
-                <td class="text-center px-2 py-1 border text-nowrap"> {{ creature.getModifier('cha') }}</td>
-                
-                <td class="text-center px-2 py-1 border line" > <span *ngFor="let skill of creature.skills">{{ skill.name }}+{{skill.abilityMod}}<br></span></td>
-                <td class="text-left   px-2 py-1 border min-w-52 line" > <span *ngFor="let immunityDamage of creature.immunitysDamage">Imunidade: {{ immunityDamage }}<br></span><span *ngFor="let immunityCondition of creature.immunitysCondition">Imun.Condição: {{ immunityCondition }}<br></span></td>
-                <td class="text-center px-2 py-1 border min-w-44 line" > <span *ngFor="let resistence of creature.resistences">Resistencia: {{ resistence }}<br></span></td>
-                <td class="text-center px-2 py-1 border min-w-44 line" > <span *ngFor="let sense of creature.senses">{{ sense }} <br></span></td>
-                <td class="text-center px-2 py-1 border"> <span>{{creature.languages }}</span></td>
-                <td class="text-center px-2 py-1 border"> <span>{{creature.nivel }}</span></td>
-                <td class="text-left px-2 py-1 border min-w-44 line" > 
-                    <span *ngFor="let description of creature.descriptions">{{ description }} <br></span>
-                </td>
-                <td class="text-center px-2 py-1 border min-w-52" > <span *ngFor="let action of creature.actions">{{ action }} <br></span></td>
-                <td class="text-center px-2 py-1 border " > <span>{{creature.page }}</span></td>
-
-            </tr>
-        </tbody>
-    </table>
-</div> 

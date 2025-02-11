@@ -34,15 +34,14 @@ export const routes: Routes = [
         component: FrontendComponent,
         children: [
             { path: 'characters', component: ListCharacterComponent },
-            { path: 'characters/edit/:id', component: EditCharacterComponent },
+            { path: 'characters/create/:id', component: CreateCharacterComponent },
             { path: 'creatures', component: ListCreatureComponent },
+            { path: 'creatures/create/:id', component: CreateCreatureComponent },
             { path: 'documents', component: ListDocumentComponent },
             { path: 'items', component: ListItemComponent }
         ]
     },
-
     { path: 'backend', component: BackendComponent },
-    // Outras rotas da sua aplicação, se houver
-    { path: '', redirectTo: '', pathMatch: 'full' }, // Rota padrão, redireciona para /home
-    { path: '**', redirectTo: '' } // Rota coringa, redireciona para /home se a rota não existir];
+    { path: '', redirectTo: '', pathMatch: 'full' },
+    { path: '**', redirectTo: '' }
 ];

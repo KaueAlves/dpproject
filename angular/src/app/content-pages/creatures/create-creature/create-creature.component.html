@@ -1,1 +1,81 @@
-FUNCIONOU
+<div class="bg-zinc-800 text-white shadow-lg rounded-lg overflow-hidden border border-zinc-600 p-6">
+    <h3 class="text-zinc-100 font-bold mb-4">CRIAR CRIATURA</h3>
+    <hr class="mb-4">
+    <form [formGroup]="creatureForm" (ngSubmit)="onSubmit()" class="space-y-6">
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+            <div class="mb-4 lg:col-span-4">
+                <label for="page" class="block text-white mb-1">Página</label>
+                <input id="page" formControlName="page" class="bg-zinc-600 text-white rounded p-2 w-full" />
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="mb-4" *ngFor="let field of ['name', 'type', 'armorClass', 'maxLife', 'currentLife', 'speed']">
+                <label [for]="field" class="block text-white mb-1">{{ field | titlecase }}</label>
+                <input [id]="field" [formControlName]="field" class="bg-zinc-600 text-white rounded p-2 w-full" />
+            </div>
+        </div>
+        <div class="mb-4">
+            <label class="block text-white mb-1">Habilidades</label>
+            <div formGroupName="ability" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4">
+                <div *ngFor="let ability of ['str', 'dex', 'con', 'int', 'wis', 'cha']" [formGroupName]="ability">
+                    <label [for]="ability + 'Value'" class="block text-white mb-1">{{ ability | uppercase }}</label>
+                    <input [id]="ability + 'Value'" formControlName="value" class="bg-zinc-600 text-white rounded p-2 w-full mb-2" />
+                    <label [for]="ability + 'Save'" class="block text-white mb-1">Save</label>
+                    <input type="checkbox" [id]="ability + 'Save'" formControlName="isSave" class="bg-zinc-600 text-white rounded p-2" />
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="mb-4" *ngFor="let field of ['nivel', 'exp']">
+                <label [for]="field" class="block text-white mb-1">{{ field | titlecase }}</label>
+                <input [id]="field" [formControlName]="field" class="bg-zinc-600 text-white rounded p-2 w-full" />
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="mb-4" *ngFor="let arrayField of ['immunitysCondition', 'actions', 'senses', 'languages', 'resistences', 'immunitysDamage']">
+                <div class="flex justify-between items-center mb-2">
+                    <label class="block text-white mb-1">{{ arrayField | titlecase }}</label>
+                    <button type="button" (click)="addControl(arrayField)" class="bg-zinc-600 text-white py-2 px-4 rounded hover:bg-zinc-700 w-48">Adicionar</button>
+                </div>
+                <div [formArrayName]="arrayField" class="space-y-2">
+                    <div *ngFor="let control of getFormArray(arrayField).controls; let i = index" class="flex items-center space-x-2">
+                        <input [formControlName]="i" class="bg-zinc-600 text-white rounded p-2 w-full" />
+                        <button type="button" (click)="removeControl(arrayField, i)" class="bg-zinc-600 text-white py-1 px-2 rounded hover:bg-zinc-700 w-20">Deletar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-4">
+            <div class="flex justify-between items-center mb-2">
+                <label class="block text-white mb-1">Descrições</label>
+                <button type="button" (click)="addDescription()" class="bg-zinc-600 text-white py-2 px-4 rounded hover:bg-zinc-700 w-48">Adicionar</button>
+            </div>
+            <div formArrayName="descriptions" class="space-y-2">
+                <div *ngFor="let description of descriptions.controls; let i = index" class="flex items-center space-x-2">
+                    <textarea [formControlName]="i" class="bg-zinc-600 text-white rounded p-2 w-full"></textarea>
+                    <button type="button" (click)="removeDescription(i)" class="bg-zinc-600 text-white py-1 px-2 rounded hover:bg-zinc-700 w-20">Deletar</button>
+                </div>
+            </div>
+        </div>
+        <div class="mb-4">
+            <div class="flex justify-between items-center mb-2">
+                <label class="block text-white mb-1">Perícias</label>
+                <button type="button" (click)="addSkill()" class="bg-zinc-600 text-white py-2 px-4 rounded hover:bg-zinc-700 w-48">Adicionar</button>
+            </div>
+            <div formArrayName="skills" class="space-y-4">
+                <div *ngFor="let skill of skills.controls; let i = index" [formGroupName]="i" class="space-y-2">
+                    <div class="flex items-center space-x-2">
+                        <input formControlName="name" placeholder="Nome" class="bg-zinc-600 text-white rounded p-2 w-full" />
+                        <button type="button" (click)="removeSkill(i)" class="bg-zinc-600 text-white py-1 px-2 rounded hover:bg-zinc-700 w-20">Deletar</button>
+                    </div>
+                    <input formControlName="ability" placeholder="Habilidade" class="bg-zinc-600 text-white rounded p-2 w-full" />
+                    <input formControlName="abilityMod" placeholder="Modificador de Habilidade" class="bg-zinc-600 text-white rounded p-2 w-full" />
+                    <input formControlName="proficiency" placeholder="Proficiência" class="bg-zinc-600 text-white rounded p-2 w-full" />
+                    <input formControlName="proficiencyMod" placeholder="Modificador de Proficiência" class="bg-zinc-600 text-white rounded p-2 w-full" />
+                    <input formControlName="description" placeholder="Descrição" class="bg-zinc-600 text-white rounded p-2 w-full" />
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="bg-zinc-600 text-white py-2 px-4 rounded hover:bg-zinc-700 w-full">Enviar</button>
+    </form>
+</div>
