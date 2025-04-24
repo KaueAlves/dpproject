@@ -315,49 +315,7 @@ Agora, sem a pressa que antes cegava, vocês enxergam de fato o cenário ao redo
 1. Grupo escoltado.
 2. Mais grupos apresentados.
 3. Liberado acesso a área comercial por tempo limitado.
-4. Grupo pode ir até o mercador.
-5. Mercado do Jamor
-  > Todos os NPCs foram reunidos.
-  > Mercador fala sobre os artefatos que necessita reunir.
-  > São X artefatos.
-  > Estão espalhados por Faerûn.
-  > Ele não irá dar 
-6. Briga entre classes 
-  2 Líderes Rebeldes (Bandit Captain - MM, p. 344, ajustado para CR 2)
-  6 Revoltosos Armados (Bandits - MM, p. 343)
-  1 Bruto de Taverna (Berserker - MM, p. 344)
-  ou
-  1 Cavaleiro Nobre (Knight - MM, p. 347, ajustado para CR 3)
-  4 Guardas Pessoais (Guards - MM, p. 347)
-  2 Veteranos da Guarda (Veteran - MM, p. 350, ajustados para CR 2 cada)
-7. Briga no porto.
-  1 Líder dos Saqueadores – "Lorde Carcino" (CR 3 – Baseado no Bandit Captain, MM p. 344, ajustado)
-  1 Gladiador Mercenário (1x Berserker – CR 2, MM p. 344)
-  4 Arqueiros Emboscadores (4x Scouts – CR 1, MM p. 349)
-8. BOATOS
-  📜 Boatos Circulando pela Cidade
-  Os aventureiros podem ouvir rumores em tavernas, mercados e pelas ruas. Esses boatos podem levá-los a investigações e perigos ocultos.
-  ---
-  ## 🏰 Centro da Cidade – Disputas entre Plebeus e Nobres
-  1. **"A nobreza está tramando algo!"**  
-    Alguns plebeus dizem que os nobres estão se reunindo em segredo para impor mais impostos e reforçar a guarda. Outros afirmam que há desentendimentos entre as famílias aristocráticas.
-  2. **"O povo está se organizando para resistir!"**  
-    Nas tabernas, cochichos falam de reuniões clandestinas. Dizem que um líder rebelde carismático está recrutando descontentes para um grande levante.
-  3. **"Guardas foram vistos aceitando subornos."**  
-    Alguns cidadãos afirmam ter visto guardas da cidade recebendo ouro em becos escuros. Mas seria dinheiro dos nobres para manter a ordem ou dos plebeus para iniciar um golpe?
-  4. **"A Igreja pode estar envolvida."**  
-    Clérigos estão discursando sobre justiça e igualdade, e alguns dizem que membros do clero podem estar apoiando os plebeus… ou os nobres, dependendo de quem paga melhor.
-  ---
-  ## ⚓ Porto – Brigas e Caos nas Docas
-  1. **"O porto está cheio de contrabandistas!"**  
-    Dizem que mercadores estão sendo ameaçados a pagar taxas secretas para desembarcar suas cargas em segurança.
-  2. **"Um navio misterioso atracou à noite."**  
-    Alguns marinheiros juram ter visto uma embarcação sombria chegar sem anunciar sua carga. Desde então, figuras encapuzadas têm sido vistas pelas docas.
-  3. **"Os trabalhadores estão em greve."**  
-    Barqueiros e estivadores estão furiosos, exigindo melhores condições. Alguns comerciantes estão contratando mercenários para forçá-los a voltar ao trabalho.
-  4. **"Criaturas do mar foram vistas entre os barcos."**  
-    Há rumores de pescadores desaparecendo e corpos encontrados com marcas de garras. Alguns dizem que os merfolks estão planejando atacar a cidade.
-  ---
+
 
 ## 🛡️ Perguntas dos Guardas  
 
@@ -408,11 +366,233 @@ Essas perguntas ajudam a **construir um mistério** e direcionar a **investigaç
 - Valessa sabe que o Slinx está marcado.
 - O grupo irá receber um outro cristal que brilha.
 
-### Preparação capitulo 11
+### Capitulo 11
 
+  - São escoltados até guilda.
+  - Grupo promovido para Prata.
+  - Novos integrantes 
+  - Entram em baldurs gate
+
+> Henrique 3
+> Carlos Décimo Quarto
+
+  - Grupo banido, do Leilão do Jamur
+  - 50 de ouro pro Hopper
+  - 6 de ouro pro Hopper
+  - Lyrien, está de olho e seguindo Carlos Décimo Quarto
+  - Carlos Décimo Quarto, roubou 15 de gold.
+  - Slinx dormiu.
+  - Slinx não encontrou o Item.
+  - Aiden apresentado.
+
+### Capitulo 12
+
+2. Mercado do Jamor
+  > Todos os NPCs foram reunidos.
+  > Mercador fala sobre os artefatos que necessita reunir.
+  > São X artefatos.
+  > Estão espalhados por Faerûn.
+  > Ele não irá dar 
+3. Briga entre classes 
+  2 Líderes Rebeldes (Bandit Captain - MM, p. 344, ajustado para CR 2)
+  6 Revoltosos Armados (Bandits - MM, p. 343)
+  1 Bruto de Taverna (Berserker - MM, p. 344)
+  ou
+  1 Cavaleiro Nobre (Knight - MM, p. 347, ajustado para CR 3)
+  4 Guardas Pessoais (Guards - MM, p. 347)
+  2 Veteranos da Guarda (Veteran - MM, p. 350, ajustados para CR 2 cada)
+4. Briga no porto.
+  1 Líder dos Saqueadores – "Lorde Carcino" (CR 3 – Baseado no Bandit Captain, MM p. 344, ajustado)
+  1 Gladiador Mercenário (1x Berserker – CR 2, MM p. 344)
+  4 Arqueiros Emboscadores (4x Scouts – CR 1, MM p. 349)
+5. BOATOS
+  📜 Boatos Circulando pela Cidade
+  Os aventureiros podem ouvir rumores em tavernas, mercados e pelas ruas. Esses boatos podem levá-los a investigações e perigos ocultos.
+  ---
+  ## 🏰 Centro da Cidade – Disputas entre Nobres e Pobres
+  1. **"A nobreza está tramando algo!"**  
+    Alguns plebeus dizem que os nobres estão se reunindo em segredo para impor mais impostos e reforçar a guarda. Outros afirmam que há desentendimentos entre as famílias aristocráticas.
+  2. **"O povo está se organizando para resistir!"**  
+    Nas tabernas, cochichos falam de reuniões clandestinas. Dizem que um líder rebelde carismático está recrutando descontentes para um grande levante.
+  3. **"Guardas foram vistos aceitando subornos."**  
+    Alguns cidadãos afirmam ter visto guardas da cidade recebendo ouro em becos escuros. Mas seria dinheiro dos nobres para manter a ordem ou dos plebeus para iniciar um golpe?
+  4. **"A Igreja pode estar envolvida."**  
+    Clérigos estão discursando sobre justiça e igualdade, e alguns dizem que membros do clero podem estar apoiando os plebeus… ou os nobres, dependendo de quem paga melhor.
+  ---
+  ## ⚓ Porto – Brigas e Caos nas Docas
+  1. **"O porto está cheio de contrabandistas!"**  
+    Dizem que mercadores estão sendo ameaçados a pagar taxas secretas para desembarcar suas cargas em segurança.
+  2. **"Um navio misterioso atracou à noite."**  
+    Alguns marinheiros juram ter visto uma embarcação sombria chegar sem anunciar sua carga. Desde então, figuras encapuzadas têm sido vistas pelas docas.
+  3. **"Os trabalhadores estão em greve."**  
+    Barqueiros e estivadores estão furiosos, exigindo melhores condições. Alguns comerciantes estão contratando mercenários para forçá-los a voltar ao trabalho.
+  4. **"Criaturas do mar foram vistas entre os barcos."**  
+    Há rumores de pescadores desaparecendo e corpos encontrados com marcas de garras. Alguns dizem que os merfolks estão planejando atacar a cidade.
+  ---
+
+  6.
+  - Lyrien está um pouco atrás de Carlos Décimo Quarto 
+  - Carlos está com mais 2 seguranças se retirando de Baldurs Gate e indo para Baldurs Gueto zona norte.
+  - Grupo está dentro do empório do Jamur
+  - Jamur pode perdoar o grupo Slinx e Parsath
+  - Informações que Jamur 
+
+### Capitulo 13
+
+  - Dante "Olho-Morto" Vasquez
+  - Elixir Cenourados + 3 pontos de vida temporarios.
+  - Grupo agora tem conhecimento das 2 missões da guilda e uma missão do mercador.
+  - Missão do mercador.
+  - Parsath comprou um anel do humor
+  - Hopper tentou fazer um show.
+  - Lyrien chateado
+  - Blueprint da pistola, fiado.
+  - Hopper e Slinx tiveram sonhos estranhos.
+
+### Capitulo 14
+
+  - Elixir Cenourado     - 15 prata
+  - Suco Revive Defunto  - 15 prata
+  - Pão                  - 5 prata x 35
+  - Queijo 14 fatias     - 1.25
+  - Pães de Alho         - 15 x 5
+  - Casergoul, o Marcineiro, Vendeu a carroça por 50 de ouro.
+  - Kia, atendente da guilda
+  - 20 prata 
+  - 75 gold, Eldora vai para Waterdeep - 1 Semana
   - 
+   
+### Capítulo 15 – Selas e Submissão || O Roubo do Aristocrata
 
+ - Viajando.
+ - Kelvin.
+ - Badaloque encontra o lobo.
+ - Briga na floresta
+ - Conseguem salvar o Capivalo
+ - Continuam andando até encontrar a casa de campo do Calven
+ - Casa de campo do Calven está coberta de lobos e pessoas mortas.
+ - Cabana do Calven 
+  - Local para descansar
+  - Porão escondido
+    - Prisioneiros, Tráficos de pessoas, Registros de transação.
+    - Ele vende pessoas para cidade moeda
+    - Recebe bastante ouro
+    - Gosta de torturar 
+    - Não se sabe para onde ele vende
+  - Ajudaram o lobo.
+  - Todos exaustos
+  - Enwin sendo puxado pela espectro
+  - Hopper visado pelo lobo
+  - Trairam os bandidos do Calven
 
+  Carta Calven
+    Contrato de Fornecimento – Aquisições Vivas
+
+    Vendedor: Calven, mercador autorizado pela Guilda do Ouro Brilhante
+    Comprador: Representantes da Vila Moeda
+
+    Mercadorias Disponíveis:
+
+    Pequenos e Ágeis – Criaturas de estatura reduzida, conhecidas por sua destreza e astúcia. Excelente para tarefas que exigem discrição e velocidade.
+    Graciosos e Refinados – Seres de traços delicados e inteligência aguçada, naturalmente dotados para a arte e a magia. Podem ser úteis em ambientes de sofisticação.
+    Misturas Curiosas – Indivíduos que combinam heranças distintas, mesclando habilidades versáteis e resistência surpreendente. Adaptáveis a diversas funções.
+    Filhos da Noite – Criaturas de pele sombria e olhar penetrante, acostumadas à escuridão. Suas habilidades são especialmente úteis para trabalhos discretos e estratégicos.
+    Termos de Venda:
+
+    O transporte será realizado com segurança reforçada, para evitar inconvenientes.
+    Os adquirentes devem estar cientes de que algumas mercadorias possuem talentos inatos que podem exigir medidas especiais de contenção.
+    O pagamento poderá ser feito em ouro, gemas ou favores equivalentes.
+    A garantia cobre apenas a integridade da mercadoria até o momento da entrega.
+    Assinatura:
+    Calven, Mercador
+
+  - História da Familia Wai
+    - 200 anos antes
+      - Wai cuida de Vlad, aventureiro da região que sempre passa as noites nos quartos da hospedaria.
+      - Wai atende bandidos que causam tumulto na taverna, eles só querem destruir e marcar território, vlad ajuda o grupo a impedir o ataque.
+      - Wai agradece eles retira a chave da lareira, abre um cofre e entrega algumas moedas de ouro pela ajuda.
+      
+    - 100 anos antes - ( 2040 )
+      - Wai está mais velha, mas agora Mary ajuda cuidar da pousada.
+      - Está acontecendo uma grande festá e uma perseguição aos bruxos, pois um conclave ameaçava as regiões proximas e todas mulheres solteiras eram acusadas de fazer parte.
+      - Wai tinha criado um lugar onde outra mulheres poderiam se esconder e se manter seguros
+      - Porão era escondido por certas etapas e a ultima envolvia um cofre
+      - Wai é morta tentando espulsar os perseguidores do local
+      - Vlad chega para ajudar quando já é tarde
+      - Mary está encondida com seu bebe
+
+    - Algins dias antes ( 2140 
+    )
+      - Os demonios estão atacando as proximidades do chalé.
+      - Chalé ainda se mantem seguro com com a guarda de baldurs gate que veio investigar.
+      - Calven começa a caçar as pessoas 
+      - Pessoas que passam pela redondeza são sequestrada, mortas e vendidas.
+      - Mary foi vendida como escrava
+      - Cait teve seus olhos arrancados e seu bebe retirado.
+      
+    -- DATAS --
+    - Segunda lua do terceiro semestre do ano.
+    - Quarta lua do Terceiro semestre do ano 1940.
+    - 2040
+
+    - Conheceram Mei Lei e Vlad
+    - Conversaram sobre espectros e como mata-los
+    - Perguntaram sobre o lobo da floresta
+    - Tiveram conhecimento das fadas
+    - Na taverna Pai e Filho Mercadores, Guardas, E aventureiros.
+    - Todos se curaram 50% da vida total, sem spell e sem long rest.
+    - Falaram do Ogro.
+    - Investigaram o local.
+    - Enwin sabe que em 100 anos tem um acontecimento histórico.
+    - Vlad sem graça perto da Mei
+    - Inicio da Melodia do Anél Brilha está na cabeça do bardo.
+    - Lori
+    - Lori 
+    - Vaerion Mei
+    - Sylmira Mei
+
+  Vila Moeda
+
+    - Taverna 
+    - Ferreiro
+    - Mercado
+    - Cemitério
+    - Igreja
+    - Castelo
+    - Minas
+    - Esconderijo do Revolucionario
+    - Casa do Nobre
+
+    Plebeus:
+    Toma Cestrel
+    Mira Vensel
+    Darrik Pote
+    Lina Travo
+    Grenn Barlo
+    Elsbeth Dore
+    Ruldon Ceir
+    Nella Vim
+    Pekk Jarn
+    Fira Dammel
+
+  Nobres:
+    Lady Seraphina Vaelwyn
+    Lord Althar Dravenmoor
+    Sir Cedric Thornhall
+    Baronesa Elira Montvale
+    Duque Halric Thorne
+    Marquesa Ysolde Rennar
+    Visconde Maelor Evingard
+    Condessa Virelle Ashenford
+    Sir Tavien Korran
+    Lady Brynne Delanor
+    
+### Players
+
+  - Slinx e Hopper  - Beshaba & Tymora
+  - Enwin e Parsath - O Esquecido
+  - Lyrien          - Gnomos
+  
 
 # Pilulas Principais
 
@@ -427,7 +607,7 @@ Uma vila dividida entre a riqueza e a pobreza, com um passado sombrio controlado
 
 ### 🧛 Influência do Vampiro  
 - O vampiro **exilou todos os nobres** na zona pobre.  
-- A vila rica **se alimenta dos antigos pobres**, criando um ciclo de terror.  
+- A vila rica **se alimenta dos antigos nobres**, criando um ciclo de terror.  
 - **Mulheres grávidas e crianças foram exterminadas** pelo vampiro.  
 - O **"Esquecido" alterou as memórias dos nobres**, fazendo-os esquecer que eram os verdadeiros donos da vila.  
 
