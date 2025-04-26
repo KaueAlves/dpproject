@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Data.AppDbContext;
-
+using Services.PlayerCharacter;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,6 +14,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection"),
         new MySqlServerVersion(new Version(8, 0, 31))
     ));
+
+builder.Services.AddScoped<IPlayerCharacterService, PlayerCharacterService>();
+
 
 var app = builder.Build();
 

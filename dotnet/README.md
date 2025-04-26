@@ -17,5 +17,10 @@
 16. Ajuste o Program.cs para utilizar o Mysql 
 17. dotnet ef migrations add CriarTabelas
 18. dotnet ef database update
+19. mkdir Services
+20. touch Services/PlayerCharacter/PlayerCharacterService.cs
+21. touch Services/Class/ClassService.cs
+22. Modifique o Program.cs, adicione `builder.Services.AddScoped<IPlayerCharacterService, PlayerCharacterService>();`, para informar que a interface deve implementar o que estiver na classe base.
+23. 
 
 
