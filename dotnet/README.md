@@ -21,6 +21,24 @@
 20. touch Services/PlayerCharacter/PlayerCharacterService.cs
 21. touch Services/Class/ClassService.cs
 22. Modifique o Program.cs, adicione `builder.Services.AddScoped<IPlayerCharacterService, PlayerCharacterService>();`, para informar que a interface deve implementar o que estiver na classe base.
-23. 
+23. touch Models/ResponseModel.cs
+24. touch Controllers/PlayerCharacterController.cs
 
+## Fluxo de criação de endpoint de classes existentes
+1. Crie em ordem - Interface, Classe Base, Serviço e Controller
+2. Defina as funções na Interface.
+3. Implemente as funções na Classe Base.
+
+## Populando banco
+
+INSERT INTO `dpproject-dotnet`.`PlayerCharacters` (`Name`, `Level`) VALUES ('Slinx', '4');
+INSERT INTO `dpproject-dotnet`.`PlayerCharacters` (`Name`, `Level`) VALUES ('Lyrien', '4');
+INSERT INTO `dpproject-dotnet`.`PlayerCharacters` (`Name`, `Level`) VALUES ('Parsath', '4');
+INSERT INTO `dpproject-dotnet`.`PlayerCharacters` (`Name`, `Level`) VALUES ('Enwin', '4');
+INSERT INTO `dpproject-dotnet`.`PlayerCharacters` (`Name`, `Level`) VALUES ('Hopper', '4');
+
+INSERT INTO `dpproject-dotnet`.`Classes` (`Name`) VALUES ('Guerreiro');
+INSERT INTO `dpproject-dotnet`.`Classes` (`Name`) VALUES ('Bardo');
+INSERT INTO `dpproject-dotnet`.`Classes` (`Name`) VALUES ('Bruxo');
+INSERT INTO `dpproject-dotnet`.`Classes` (`Name`) VALUES ('Barbaro');
 
